@@ -1,3 +1,4 @@
+<link href="http://fonts.googleapis.com/css?family=Engagement" rel="stylesheet" type="text/css">
 <div class="preloader">
    <div class="spinner">
       <div class="bounce1"></div>
@@ -25,11 +26,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#featured1">Features</a></li>
-            <li class="hidden-sm"><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a class="hidden-sm login" href="#">Login</a></li>
+            <li><a href="#about">Inicio</a></li>
+            <li><a href="#featured1">Servicios</a></li>
+            <li><a href="#featured2">Algomas</a></li>
+            <li><a href="#pricing">Instituciones</a></li>
+            <li><a href="#gallery" href="#">Convenios</a></li>
+            <li class="hidden-sm"><a href="#testimonials">Testimonios</a></li>            
             <li><a class="signup" href="#">Sign up</a></li>
           </ul>
         </div>
@@ -43,13 +45,13 @@
 <!-- Hero Banner
 ================================================== -->
 <div id="intro">
-  <div class="item background-cover" style="background: url('<%= image_url 'bg-featuredapp1.jpg' %>')">
+  <div class="item background-cover" style="background: url('<%= image_url '1.jpg' %>')">
       <div class="container">
         <div class="row">
           <div class="carousel-caption-center colour-white">
-            <h2>Aston House College</h2>
-            <h1>Empresa de Estudios en el Exterior</h1>
-            <p>Tus examenes, con el instituto CAMBRIDGE, desde el BRITISH COUNCIL en Colombia.</p>
+            <h1 style= "font-family: 'Engagement', cursive;">Aston House College</h1>
+            <h4 style="margin:-1.5% 0;">Empresa de Estudios en el Exterior</h4> <br />
+            <!--<p>Tus examenes, con el instituto CAMBRIDGE, desde el BRITISH COUNCIL en Colombia.</p>-->
             <p><a class="btn btn-lg btn-primary signup" href="#" role="button">Contactenos</a></p>
           </div>
         </div>
@@ -60,49 +62,8 @@
 
 <!-- About Section
 ================================================== -->
-<section id="about" class="content text-center light">
 
-  <div class="container">
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-12 overlay-text">
-        <h2>Prestige helps you escape the daily grind</h2>
-      </div><!-- /.col-lg-12 -->
-    </div><!-- /.row -->
-
-    <div class="row">
-      <div class="col-sm-4 text-center overlay-text icons">
-        <div class="icon-wrapper">
-          <i class="fa fa-cloud icon-large"></i>
-        </div>
-        <h3>Sky's the limit</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
-      <div class="col-sm-4 text-center overlay-text icons">
-        <div class="icon-wrapper">
-          <i class="fa fa-rocket icon-large"></i>
-        </div>
-        <h3>Big Ideas</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
-      <div class="col-sm-4 text-center overlay-text icons">
-        <div class="icon-wrapper">
-          <i class="fa fa-lightbulb-o icon-large"></i>
-        </div>
-        <h3>Creative Execution</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
-    </div><!-- /.row -->
-  </div>
-
-  <div class="overlay-bg light"></div>
-
-</section>
-
-
-<!-- Featured Sections
-================================================== -->
-<section id="featured1" class="dark with-bg">
+<section id="about" class="dark with-bg">
 
   <div class="container">
     <div class="row">
@@ -116,6 +77,48 @@
   </div>
 
   <div class="overlay-bg black"></div>
+
+</section>
+
+
+<!-- Featured Sections
+================================================== -->
+<section id="featured1" class="content text-center light">
+
+  <div class="container">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-12 overlay-text">
+        <h2>Enriquece tu vida académica y profesional</h2>
+      </div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-cloud icon-large"></i>
+        </div>
+        <h3>Cursos de inglés</h3>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-rocket icon-large"></i>
+        </div>
+        <h3>Pregrados y Posgrados</h3>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-lightbulb-o icon-large"></i>
+        </div>
+        <h3>Becas Internacionales</h3>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+    </div><!-- /.row -->
+  </div>
+
+  <div class="overlay-bg light"></div>
 
 </section>
 
@@ -136,138 +139,6 @@
         <div class="vertical-align">
           <h2>Effortless time management</h2>
           <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-<!-- Testimonials
-================================================== -->
-<section id="testimonials" class="dark">
-
-  <div class="page-header text-center">
-    <h3>Testimonials</h3>
-    <h2>What People are saying</h2>
-  </div>
-
-  <div class="container">
-
-    <div class='row'>
-      <div class='col-md-offset-2 col-md-8'>
-        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-          <!-- Bottom Carousel Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#quote-carousel" data-slide-to="1"></li>
-            <li data-target="#quote-carousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Carousel Slides / Quotes -->
-          <div class="carousel-inner">
-
-            <!-- Quote 1 -->
-            <div class="item active">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <%= image_tag "user-avatar1.jpg", class:"img-circle" %>
-                  </div>
-                  <div class="col-sm-9">
-                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
-                    <small>David Parrelli - <a href="http://www.twitter.com/dparrelli" target="_blank">@dparrelli</a></small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <!-- Quote 2 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <%= image_tag 'user-avatar2.jpg', class: 'img-circle' %>
-                  </div>
-                  <div class="col-sm-9">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris."</p>
-                    <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <!-- Quote 3 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <%= image_tag 'user-avatar3.jpg', class: 'img-circle' %>
-                  </div>
-                  <div class="col-sm-9">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium."</p>
-                    <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-          </div>
-
-          <!-- Carousel Buttons Next/Prev -->
-          <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
-          <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-
-</section>
-
-
-<!-- Gallery
-================================================== -->
-<section id="gallery">
-
-  <div class="page-header text-center">
-    <h3>Screenshots</h3>
-    <h2>Here's a sneak peek</h2>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="owl-example" class="owl-carousel">
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb1.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb1.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb2.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb2.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb3.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb3.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb4.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb4.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb5.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb5.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-          <div class="item">
-            <a href="<%= image_url 'thumbs/thumb6.jpg' %>" class="popup-gallery">
-              <%= image_tag "thumbs/thumb6.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
-            </a>
-          </div>
-
         </div>
       </div>
     </div>
@@ -364,6 +235,142 @@
   </div>
 
 </section>
+
+<!-- Gallery
+================================================== -->
+<section id="gallery">
+
+  <div class="page-header text-center">
+    <h3>Galeria</h3>
+    <h2> Hey! Conoce Popayán!</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="owl-example" class="owl-carousel">
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb1.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb1.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb2.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb2.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb3.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb3.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb4.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb4.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb5.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb5.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+          <div class="item">
+            <a href="<%= image_url 'thumbs/thumb6.jpg' %>" class="popup-gallery">
+              <%= image_tag "thumbs/thumb6.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- Testimonials
+================================================== -->
+<section id="testimonials" class="dark">
+
+  <div class="page-header text-center">
+    <h3>Testimonials</h3>
+    <h2>What People are saying</h2>
+  </div>
+
+  <div class="container">
+
+    <div class='row'>
+      <div class='col-md-offset-2 col-md-8'>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+
+            <!-- Quote 1 -->
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <%= image_tag "user-avatar1.jpg", class:"img-circle" %>
+                  </div>
+                  <div class="col-sm-9">
+                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
+                    <small>David Parrelli - <a href="http://www.twitter.com/dparrelli" target="_blank">@dparrelli</a></small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <%= image_tag 'user-avatar2.jpg', class: 'img-circle' %>
+                  </div>
+                  <div class="col-sm-9">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris."</p>
+                    <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 3 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <%= image_tag 'user-avatar3.jpg', class: 'img-circle' %>
+                  </div>
+                  <div class="col-sm-9">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium."</p>
+                    <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- Carousel Buttons Next/Prev -->
+          <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
+          <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
 
 
 <!-- Call to Action
