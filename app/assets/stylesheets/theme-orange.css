@@ -121,7 +121,7 @@ blockquote {
   color: #ffba43;
 }
 .vertical-align {
-  margin: 100px 0;
+  margin: 20% 0;
 }
 .vertical-align.no-bottom {
   margin-bottom: 0;
@@ -1531,6 +1531,7 @@ section.dark h6 {
   color: white;
   margin-bottom: 0.5em;
 }
+
 section.dark .text-muted {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -2668,4 +2669,18 @@ footer.footer .icon {
   .overlay #contactForm input {
     padding: 1.5em 1em;
   }
+}
+
+#about .overlay-text h4{
+  font-size: 2.5em;
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+#about .vertical-align h2{
+  margin-top: -17%;
+  text-align: justify;
+  font-size: 1.5em;
+  /*color: rgb(142,49,49);*/
 }
