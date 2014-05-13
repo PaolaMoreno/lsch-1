@@ -1201,7 +1201,7 @@ section .login-overlay {
 }
 #intro .carousel-caption-center h1,
 #intro-video .carousel-caption-center h1 {
-  font-size: 20em;
+  font-size: 3em;
   font-weight: 800;
   margin: 0 0 0.5em;
 }
@@ -1213,11 +1213,11 @@ section .login-overlay {
 }
 #intro .carousel-caption-center p,
 #intro-video .carousel-caption-center p {
-  font-size: 10em;
+  font-size: 1.3em;
   font-weight: 400;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
- margin: 1em 10em;
+  margin: 1em 10em;
 }
 #intro .carousel-caption-center .btn,
 #intro-video .carousel-caption-center .btn {

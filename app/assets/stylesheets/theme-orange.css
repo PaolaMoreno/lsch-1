@@ -121,7 +121,7 @@ blockquote {
   color: #ffba43;
 }
 .vertical-align {
-  margin: 20% 0;
+  margin: 100px 0;
 }
 .vertical-align.no-bottom {
   margin-bottom: 0;
@@ -246,8 +246,9 @@ blockquote {
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  background-color: #202127;
+.dropdown-menu > .active > a:focus, {
+  background-color: rgba(90,108,123, 0.7);
+  color: #ffba43;
 }
 .preloader {
   position: fixed;
@@ -1531,7 +1532,6 @@ section.dark h6 {
   color: white;
   margin-bottom: 0.5em;
 }
-
 section.dark .text-muted {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1679,7 +1679,7 @@ section .overlay-text {
   padding: 0;
 }
 #pricing .plan .plan-features li {
-  padding: 1.3em 0;
+  padding: 0.6em 0;
   font-size: 1em;
   font-weight: 200;
   border-bottom: 1px solid #eaeaea;
@@ -1709,8 +1709,8 @@ section .overlay-text {
   margin-top: -1.5em;
 }
 #pricing .plan.featured .plan-title {
-  margin: -1.5em 0 0;
-  padding-top: 1.5em;
+  margin: -3em 0 0;
+  padding-top: 0.3em;
 }
 #testimonials .carousel .carousel-control {
   font-size: 3em;
@@ -2029,6 +2029,7 @@ footer.footer {
   background: #2b2d35;
   padding: 5em 0;
   color: white;
+  border-top: 5px solid white;
 }
 footer.footer .footer-logo {
   padding: 0 1em;
@@ -2661,6 +2662,7 @@ footer.footer .icon {
   }
   .overlay #contactForm {
     padding: 0 1em;
+    border-top: 20px solid white;
   }
   .overlay #contactForm > span {
     font-size: 2em;
@@ -2679,8 +2681,30 @@ footer.footer .icon {
 }
 
 #about .vertical-align h2{
-  margin-top: -17%;
+  margin-top: -20%;
   text-align: justify;
   font-size: 1.5em;
   /*color: rgb(142,49,49);*/
 }
+
+#about .text-center h2{
+  font-size: 1.5em;
+  /*color: rgb(142,49,49);*/
+}
+
+#pricing .plan-title h6{
+  color: black;
+}
+#pricing .page-header{
+  padding-bottom: 9px;
+  margin: -30px 0 20px;
+  
+}
+
+#about .col-sm-2.icons{
+  
+  padding-top: 25px;
+}
+
+
+
