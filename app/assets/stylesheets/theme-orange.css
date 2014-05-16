@@ -1277,7 +1277,7 @@ section .login-overlay {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: .01;
   background: rgba(0, 0, 0, 0.5);
   background: -webkit-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
   background: -moz-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
