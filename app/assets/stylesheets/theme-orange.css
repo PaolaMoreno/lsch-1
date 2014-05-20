@@ -105,10 +105,10 @@ p {
   line-height: 1.75;
 }
 a {
-  color: #ffba43;
+  color: #FD795B;
 }
 a:hover {
-  color: #ffba43;
+  color: #FD795B;
   text-decoration: underline;
 }
 blockquote {
@@ -321,7 +321,7 @@ blockquote {
   padding: 1em 0;
 }
 .navbar .navbar-nav .current > a {
-  color: #ffba43 !important;
+  color: #FD795B !important;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
@@ -412,6 +412,8 @@ blockquote {
   color: inherit;
   font-size: inherit;
 }
+
+/**************************************Nav bar elements***************************/
 .cbp-af-header .nav {
   float: right;
 }
@@ -433,10 +435,10 @@ blockquote {
   text-transform: uppercase;
 }
 .cbp-af-header .nav a.signup {
-  color: #ffba43 !important;
+  color: #FD795B !important;
 }
 .cbp-af-header .nav a:hover {
-  color: #ffba43;
+  color: #FD795B;
   background: none;
 }
 /* Transitions and class for reduced height */
@@ -1146,8 +1148,25 @@ section .login-overlay {
   background-color: #2b2d35;
 }
 .panel-default > .panel-heading {
-  background-color: #f5f5f5;
+  background-color: #FD795B;
+  border: 1px solid transparent;
+  color: white;
 }
+.panel-default > .panel-heading a.selected{
+  color: #333333;
+
+}
+
+
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #FFCC99;
+  background-color: rgba(242,241,241, .3);
+  color: #333333;
+  border: 1px solid transparent;
+  
+}
+
 .panel-primary > .panel-heading {
   background-color: #2b2d35;
 }
@@ -1224,13 +1243,13 @@ section .login-overlay {
 #intro-video .carousel-caption-center .btn {
   margin: 1em 0;
   padding: 1em 2em;
-  background: #ffba43;
+  background: #FF634D;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #intro .carousel-caption-center .btn:hover,
 #intro-video .carousel-caption-center .btn:hover {
-  background: #ffa710;
+  background: rgba(253,121,91, .9);
 }
 #intro .carousel-caption-left,
 #intro-video .carousel-caption-left {
@@ -1277,7 +1296,7 @@ section .login-overlay {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .1;
+  opacity:.3;
   background: rgba(0, 0, 0, 0.5);
   background: -webkit-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
   background: -moz-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
@@ -1298,8 +1317,8 @@ section .login-overlay {
   opacity: 0.5;
 }
 .overlay-bg.light {
-  background-image: -webkit-linear-gradient(top, rgba(243, 243, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
-  background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(224, 233, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
+  background-image: linear-gradient(to bottom, rgba(224, 233, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f3f3f3', endColorstr='#d9f3f3f3', GradientType=0);
 }
@@ -1637,7 +1656,7 @@ section .overlay-text {
   background: #f5f5f5;
 }
 #pricing .plan .plan-title h2 {
-  padding: 1.3em 0.5em 0;
+  padding: 0.1em 0.3em 0.1em;
   margin: 0;
   font-size: 1.3em;
   font-weight: 200;
@@ -1673,13 +1692,14 @@ section .overlay-text {
   font-size: 0.2em;
 }
 #pricing .plan .plan-features {
-  text-align: center;
+  text-align: left;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: 1em;
 }
 #pricing .plan .plan-features li {
-  padding: 0.6em 0;
+  padding: 0.2em 0;
   font-size: 1em;
   font-weight: 200;
   border-bottom: 1px solid #eaeaea;
@@ -2101,7 +2121,7 @@ footer.footer .icon {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background-color: rgba(255, 186, 66, 0.4);
+  background-color: rgba(253, 121, 91, 1);
   text-align: center;
   margin: 2em auto 0;
   padding: 3em 0;
