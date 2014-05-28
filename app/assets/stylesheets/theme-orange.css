@@ -1157,11 +1157,13 @@ section .login-overlay {
 
 }
 
+.panel-default > .panel-heading a:hover{color: rgba(224, 233, 243, 0.95);}
+
 
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #FFCC99;
-  background-color: rgba(242,241,241, .3);
+  background-color: white;
   color: #333333;
   border: 1px solid transparent;
   
@@ -2734,5 +2736,31 @@ form.wufoo.page1{
 width: 400px;
 
 
+}
+
+.posypre {
+  margin-left: -0.7em;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+ text-align: center;
+color: #7c7c7c;
+}
+
+
+#gallery h3{
+  color:#FD795B;
+  font-size:2.5em;
+}
+
+
+
+
+
+.cbp-af-header.cbp-af-header-shrink .nav li.dropdown.active a{
+  color: #FD795B;
+}
+
+.cbp-af-header.cbp-af-header-shrink .nav li.dropdown a{
+  color: black;
 }
 
