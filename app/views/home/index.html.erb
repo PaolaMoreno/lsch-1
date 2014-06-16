@@ -22,7 +22,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <h1><a class="navbar-brand scroll" href="#intro">Aston</a></h1>
+             <!--<%= image_tag "astonicon.jpg" %>-->
+            <h1><a class="navbar-brand scroll" href="#intro"></a>ASTON</h1>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
@@ -35,6 +36,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="#featured1" class="tab" data-toggle="tab">Servicios destacados</a></li>
                   <li><a href="#featured2" class="tab" data-toggle="tab">Cursos cortos</a></li>
+                  <li><a href="#testimonials" class="tab" data-toggle="tab">Curso de español</a></li>
                 </ul>
               </li>
 
@@ -42,7 +44,7 @@
               <!--<li><a href="#featured2">Algomas</a></li>-->
               <li><a href="#pricing">Instituciones</a></li>
               <li class="hidden-sm hidden-md"><a href="#gallery">Galeria</a></li>
-              <li class="hidden-sm hidden-md"><a href="#testimonials">Testimonios</a></li>            
+              <!--<li class="hidden-sm hidden-md"><a href="#testimonials">Testimonios</a></li>-->            
               <li><a class="signup" href="#singup">Contáctanos</a></li>
             </ul>
           </div>
@@ -80,7 +82,7 @@
       <div class="row" style="margin-left:5%;">
         <div class="col-sm-5 overlay-text">
           <div class="vertical-align">
-            <h2 style="text-align:center;">QUIENES SOMOS</h2>
+            <h2 style="text-align:center;">QUIENES SOMOS <%= t("titulo")%></h2>
             <p style="text-align: justify; background-color: rgba(98, 98, 104, 0.2); border-radius:10px; padding: 10px 10px 10px 10px; "> ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S  es una empresa que ofrece planes académicos en el exterior de alta calidad, tales como inglés para extranjeros, inglés de negocios, otros idiomas, un programa especial para profesores de idiomas, plan quinceañeras, cursos de verano para menores de edad, pregrados y postgrados.
               ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S, nace como una organización de experiencias académicas en Europa, Asia y América del Norte, después de 5 años de una buena y estrecha experiencia laboral con STANTON SCHOOL OF ENGLISH, empresa que nos respalda totalmente y con la que seguiremos trabajando como sus agentes para el suroccidente de Colombia. 
 
@@ -127,9 +129,11 @@
   ================================================== -->
 
 <section id="featured1" class="content text-center light with-bg">
+<div class="page-header text-center">
+  <h3>Servicios Destacados</h3></div>
    <div class="container">
-     <div class="overlay-bg light"></div>
-     <div class ="row"><h2>Servicios Destacados</h2></div>
+    <div class="overlay-bg light"></div>
+     
      <div class ="row">
       <div class="col-sm-7">
         <div class="panel-group" id="accordion">
@@ -138,6 +142,7 @@
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
                   Cursos de inglés
+                  <span class="caret"></span>
                 </a>
               </h4>
             </div> <!--end panel-heading-->
@@ -250,9 +255,10 @@
 <!--*********************************************-->
 
 <section id="featured2" class="content text-center light with-bg">
+  <div class="page-header text-center">
+  <h3>Cursos Cortos</h3></div>
   <div class="container">
     <div class="overlay-bg light"></div>
-    <div class ="row content text-center light"><h2>Cursos cortos</h2> </div>
     <div class ="row">
       <div class="row">
         <div class="col-sm-5 text-center">
@@ -274,6 +280,7 @@
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                       Año y semestre académico Internacional
+                      <span class="caret"></span>
                     </a>
                   </h4>
                 </div>
@@ -358,15 +365,143 @@
   </section>
 
 
+<!-- Testimonials
+  ================================================== -->
+  <section id="testimonials" class="dark">
+
+    <div class="page-header text-center">
+      <h3>Curso de Español</h3>
+      <h2>Bienvenido a Popayán!</h2>
+    </div>
+
+    <div class="container">
+
+      <div class='row'>
+        <div class='col-md-offset-2 col-md-8'>
+          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <!-- Bottom Carousel Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#quote-carousel" data-slide-to="1"></li>
+              <li data-target="#quote-carousel" data-slide-to="2"></li>
+              <li data-target="#quote-carousel" data-slide-to="3"></li>
+              
+            </ol>
+
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
+
+              <!-- Quote 1 -->
+              <div class="item active">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <%= image_tag 'pop.jpg'%>
+                    </div>
+                    <div class="col-sm-4">
+                      <%= image_tag 'pop-a.jpg'%>
+                    </div>
+                     <div class="col-sm-4">
+                      <%= image_tag 'pop-b.jpg'%>
+                    </div>
+                  </div>
+                  <p style="text-align:center">" Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!"</p>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="item">
+                <blockquote>
+                 <div class="row">
+                    <div class="col-sm-4">
+                      <%= image_tag 'pop2.jpg'%>
+                    </div>
+                    <div class="col-sm-4">
+                      <%= image_tag 'pop2-a.jpg'%>
+                    </div>
+                     <div class="col-sm-4">
+                      <%= image_tag 'pop2-b.jpg'%>
+                    </div>
+                  </div>
+                  <p style="text-align:center">"Encontrarás una variedad de espacios naturales que te harán sentirte pleno!"</p>
+
+
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-4 text-center">
+                      <%= image_tag 'pop31.jpg'%>
+                    </div>
+                    <div class="col-sm-8">
+                      <p style="text-align:justify">"Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
+                      La escuela programará eventos en cada curso para conocer un poco más la cultura
+                      de Colombia mientras practicas el idioma!"</p>
+                        
+                    </div>
+                  </div>
+                  <p></p>
+                </blockquote>
+              </div>
+               <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 text-right">
+                      <%= image_tag 'pop5.jpg'%>
+                    </div>
+                    <div class="col-sm-6 text-left">
+                      <%= image_tag 'pop6.jpg'%>
+                    </div>
+                  </div>
+                  <p style="text-align:center">"Clases de hasta 10 estudiantes y profesores nativos altamente calificados!"</p>
+                </blockquote>
+              </div>
+
+
+
+
+
+
+
+            </div>
+
+            <!-- Carousel Buttons Next/Prev -->
+            <br />
+            <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
+            <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
 <!-- Pricing
   ================================================== -->
   <section id="pricing" class="dark">
 
-    <div class="page-header text-center">
-      <h2>Instituciones</h2>
-    </div>
+   
 
     <div class="container">
+    <div class="page-header text-center">
+      <h3>Instituciones</h3>
+    </div>
+
       <div class="row">
         <div class="plans">
          <!-- <div class="col-xs-12 col-sm-6 col-md-3">
@@ -396,14 +531,13 @@
               </div>
 
               <ul class="plan-features">
-                <li><strong>Stanton School of English</strong> <br />Escuela privada de inglés en Lóndres Inglaterra, ubicada en la zona uno de la ciudad cerca del Hyde Park y lugares turísticos.</li>
-                <li><strong>Beet Language Centre</strong> <br />Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
-                <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo</li>
                 <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.</li>
+                <li><strong>Beet Language Center</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
+                <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo.</li>
                 <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
                 <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
-                <li><strong>SOUTH THAMES COLLEGE</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
-                <li><strong>LONDON SCHOOL OF BUSINESS AND FINANCE</strong> <br />LSBF ofrece programas enfocados en la industria diseñadas para reflejar las tendencias del mercado global.</li>
+                <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
+                <li><strong>London School of Business and Finance</strong> <br />LSBF ofrece programas enfocados en la industria diseñadas para reflejar las tendencias del mercado global.</li>
 
               </ul>
 
@@ -415,33 +549,17 @@
             </div>
           </div>
 
-         <!-- <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="plan featured" data-scrollreveal="enter over 1s">
-              <div class="plan-title">
-                <h2>PREGRADOS Y POSGRADOS</h2>
-                <h6></h6>
-              </div>
-
-              <ul class="plan-features">
-                <li><strong>SOUTH THAMES COLLEGE</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
-                <li><strong>LONDON SCHOOL OF BUSINESS AND FINANCE</strong> <br />LSBF ofrece programas enfocados en la industria diseñadas para reflejar las tendencias del mercado global.</li>
-
-              </ul>
-              <div class="plan-cta" style="background-color:#ffba43">
-                <p class="plan-buy"></p>
-              </div>
-            </div>
-          </div>-->
+         
 
           <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="plan featured" data-scrollreveal="enter over 1s">
               <div class="plan-title">
-                <h2>CURSO DE ESPAÑOL</h2>
+                <h2><strong>CURSO DE ESPAÑOL</strong></h2>
                 
               </div>
 
               <ul class="plan-features">
-                <li><strong>CAMBRIDGE LANGUAGE CENTRE</strong> <br />
+                <li><strong>Cambridge Language Centre</strong> <br />
                   La mejor escuela de idiomas ubicada en Popayán, Colombia,
                   dictará clases de español a alumnos extrajeros interesados en aprender el idioma.<br/>
 
@@ -461,6 +579,9 @@
 
   </section>
 
+
+
+
 <!-- Gallery
   ================================================== -->
   <section id="gallery" class="light with-bg">
@@ -479,31 +600,64 @@
               <a href="<%= image_url 'thumbs/thumb1.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb1.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
             <div class="item">
               <a href="<%= image_url 'thumbs/thumb2.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb2.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
             <div class="item">
-              <a href="<%= image_url 'thumbs/thumb2.jpg' %>" class="popup-gallery">
-                <%= image_tag "thumbs/thumb2.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+              <a href="<%= image_url 'thumbs/thumb3.jpg' %>" class="popup-gallery">
+                <%= image_tag "thumbs/thumb3.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
             <div class="item">
               <a href="<%= image_url 'thumbs/thumb4.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb4.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
             <div class="item">
               <a href="<%= image_url 'thumbs/thumb5.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb5.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
             <div class="item">
               <a href="<%= image_url 'thumbs/thumb6.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb6.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
+            </div>
+             <div class="item">
+              <a href="<%= image_url 'thumbs/thumb7.jpg' %>" class="popup-gallery">
+                <%= image_tag "thumbs/thumb7.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+              </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
+            </div>
+             <div class="item">
+              <a href="<%= image_url 'thumbs/thumb8.jpg' %>" class="popup-gallery">
+                <%= image_tag "thumbs/thumb8.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+              </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
+            </div>
+             <div class="item">
+              <a href="<%= image_url 'thumbs/thumb9.jpg' %>" class="popup-gallery">
+                <%= image_tag "thumbs/thumb9.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
+              </a>
+              <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
+              font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
 
           </div>
@@ -515,84 +669,7 @@
 
 
 
-<!-- Testimonials
-  ================================================== -->
-  <section id="testimonials" class="dark">
 
-    <div class="page-header text-center">
-      <h3>Testimonials</h3>
-      <h2>What People are saying</h2>
-    </div>
-
-    <div class="container">
-
-      <div class='row'>
-        <div class='col-md-offset-2 col-md-8'>
-          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-            <!-- Bottom Carousel Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#quote-carousel" data-slide-to="1"></li>
-              <li data-target="#quote-carousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Carousel Slides / Quotes -->
-            <div class="carousel-inner">
-
-              <!-- Quote 1 -->
-              <div class="item active">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <%= image_tag "user-avatar1.jpg", class:"img-circle" %>
-                    </div>
-                    <div class="col-sm-9">
-                      <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
-                      <small>David Parrelli - <a href="http://www.twitter.com/dparrelli" target="_blank">@dparrelli</a></small>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <!-- Quote 2 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <%= image_tag 'user-avatar2.jpg', class: 'img-circle' %>
-                    </div>
-                    <div class="col-sm-9">
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris."</p>
-                      <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <!-- Quote 3 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <%= image_tag 'user-avatar3.jpg', class: 'img-circle' %>
-                    </div>
-                    <div class="col-sm-9">
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium."</p>
-                      <small>Working Nomads - <a href="http://www.workingnomads.co" target="_blank">@workingnomads</a></small>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-            </div>
-
-            <!-- Carousel Buttons Next/Prev -->
-            <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
-            <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
 
 
 
@@ -698,19 +775,4 @@
 
     </div>
 
-    <script>
-    $(function () {
-      $('#myTab a:last').tab('show')
-    })
-
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-  e.target // activated tab
-  e.relatedTarget // previous tab
-});
-
-    $('.dropdown-toggle').dropdown();
-   /* if ($('.dropdown.active')){
-      alert("alo");
-    }*/
-
-    </script>
+   

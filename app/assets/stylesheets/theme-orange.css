@@ -323,6 +323,8 @@ blockquote {
 .navbar .navbar-nav .current > a {
   color: #FD795B !important;
 }
+
+
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
   background-color: transparent;
@@ -1211,7 +1213,7 @@ section .login-overlay {
 #intro .carousel-caption-center,
 #intro-video .carousel-caption-center {
   position: absolute;
-  left: -40%;
+  left: -45%;
   right: 0;
   bottom: 0;
   top: 80%;
@@ -1517,10 +1519,10 @@ section h2 {
   line-height: 1.3;
 }
 section h3 {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #ffba43;
+  color: #FD795B;
   letter-spacing: 1px;
 }
 section p {
@@ -1727,8 +1729,8 @@ section .overlay-text {
   background: #ffa710;
 }
 #pricing .plan.featured {
-  padding: 1.5em 0 0;
-  margin-top: -1.5em;
+  padding: 2.5em 0 0;
+ /* margin-top: -1.5em;*/
 }
 #pricing .plan.featured .plan-title {
   margin: -3em 0 0;
@@ -1758,12 +1760,24 @@ section .overlay-text {
   min-height: 250px;
 }
 #testimonials .carousel blockquote img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
+
+#testimonials .carousel blockquote .largo img {
+  width: 600px;
+  height: 200px;
+}
+
+#testimonials .col-sm-4{
+  padding-left: 30px;
+}
+
+
 #testimonials .carousel blockquote p {
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.7;
+  margin: 1em 0 2em;
 }
 #testimonials .carousel blockquote small,
 #testimonials .carousel blockquote .small {
@@ -1782,6 +1796,11 @@ section .overlay-text {
   color: #ffba43;
   text-decoration: underline;
 }
+
+blockquote p:last-child{
+  margin-bottom: 3%;
+}
+
 #portfolio .portfolio-item {
   margin-bottom: 0.15em;
 }
@@ -2719,7 +2738,7 @@ footer.footer .icon {
 }
 #pricing .page-header{
   padding-bottom: 9px;
-  margin: -30px 0 20px;
+  /*margin: -30px 0 20px;*/
   
 }
 
@@ -2749,18 +2768,19 @@ color: #7c7c7c;
 
 #gallery h3{
   color:#FD795B;
-  font-size:2.5em;
+  
 }
 
 
 
 
 
-.cbp-af-header.cbp-af-header-shrink .nav li.dropdown.active a{
-  color: #FD795B;
-}
+
 
 .cbp-af-header.cbp-af-header-shrink .nav li.dropdown a{
   color: black;
 }
 
+#pricing .page-header h2{
+  font-size: 2.5em;
+}

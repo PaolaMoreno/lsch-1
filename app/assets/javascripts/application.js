@@ -17,5 +17,12 @@
 $(document).ready(function(){
   isotope();
   signupOverlay();
-  loginOverlay();
+  $('#myTab a:last').tab('show');
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    e.target // activated tab
+    e.relatedTarget // previous tab
+    });
+
+  $('.dropdown-toggle').dropdown();
+
 });

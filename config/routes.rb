@@ -1,4 +1,6 @@
 Lsch::Application.routes.draw do
-  root 'home#index'
+	scope "/:locale" do
+	  root 'home#index'
+	end
   
 end
