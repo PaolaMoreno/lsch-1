@@ -1,6 +1,4 @@
 Lsch::Application.routes.draw do
-	scope "/:locale" do
-	  root 'home#index'
-	end
-  
+	root 'home#index' 
+	match "/:locale" => 'home#index', via: :all, as: :home_page
 end
