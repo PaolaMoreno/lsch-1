@@ -46,7 +46,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <%= link_to "Español", home_page_path(locale: :es), class: "tab", "data-toggle" => "tab" %>
+                    <%= link_to "Español", home_page_path(locale: :es) %>
                   </li>
                   <li>
                     <%= link_to "Ingles", home_page_path(locale: :en), class: "tab", "data-toggle" => "tab" %>
@@ -56,7 +56,24 @@
 
 
               <!--<li><a href="#featured2">Algomas</a></li>-->
-              <li><a href="#pricing">Instituciones</a></li>
+              <li class ="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  CURSOS<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#pricing" class="tab" data-toggle="tab">Lenguajes</a></li>
+                  <li><a href="#businesscourses" class="tab" data-toggle="tab">Negocios y MBAs</a></li>
+                  <li><a href="#sports" class="tab" data-toggle="tab">Deportes, Arte y Diseño</a>
+                  </li>
+                   <li><a href="#intecno" class="tab" data-toggle="tab">IT, Salud y Turismo</a></li>
+                </ul>
+              </li>
+
+
+
+
+
+
               <li class="hidden-sm hidden-md"><a href="#gallery">Galeria</a></li>
               <!--<li class="hidden-sm hidden-md"><a href="#testimonials">Testimonios</a></li>-->            
               <li><a class="signup" href="#singup">Contáctanos</a></li>
@@ -551,7 +568,7 @@
                 <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
                 <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
                 <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
-                <li><strong>London School of Business and Finance</strong> <br />LSBF ofrece programas enfocados en la industria diseñadas para reflejar las tendencias del mercado global.</li>
+                
 
               </ul>
 
@@ -565,7 +582,7 @@
 
          
 
-          <div class="col-xs-12 col-sm-6 col-md-3">
+          <!--<div class="col-xs-12 col-sm-6 col-md-3">
             <div class="plan featured" data-scrollreveal="enter over 1s">
               <div class="plan-title">
                 <h2><strong>CURSO DE ESPAÑOL</strong></h2>
@@ -586,12 +603,129 @@
                 <p class="plan-buy"></p>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
 
   </section>
+
+
+<!--Negocios y MBAs
+  ===================================================-->
+
+  <section id="businesscourses" class="dark">
+    <div class="container">
+      <div class="page-header text-center">
+        <h3>Instituciones</h3>
+      </div>
+
+      <div class="row">
+        <div class="plans">
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="plan featured" data-scrollreveal="enter over 1s">
+              <div class="plan-title">
+               <h2><strong>Cursos de inglés</strong></h2>
+              </div>
+              <ul class="plan-features">
+              <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.</li>
+              <li><strong>Beet Language Center</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
+              <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo.</li>
+              <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
+              <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
+              <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas 
+              semanales. </li>
+            </ul>
+            <div class="plan-cta" style="background-color:#FD795B">
+              <p class="plan-buy"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Deportes, arte y diseño
+  ================================================== -->
+  <section id="sports" class="dark">
+    <div class="container">
+      <div class="page-header text-center">
+        <h3>Instituciones</h3>
+      </div>
+
+      <div class="row">
+        <div class="plans">
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="plan featured" data-scrollreveal="enter over 1s">
+              <div class="plan-title">
+               <h2><strong>Cursos de inglés</strong></h2>
+              </div>
+              <ul class="plan-features">
+              <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.</li>
+              <li><strong>Beet Language Center</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
+              <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo.</li>
+              <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
+              <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
+              <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas 
+              semanales. </li>
+            </ul>
+            <div class="plan-cta" style="background-color:#FD795B">
+              <p class="plan-buy"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<!-- IT, Arts and Tourism
+  ================================================== -->
+
+  <section id="intecno" class="dark">
+    <div class="container">
+      <div class="page-header text-center">
+        <h3>Instituciones</h3>
+      </div>
+
+      <div class="row">
+        <div class="plans">
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="plan featured" data-scrollreveal="enter over 1s">
+              <div class="plan-title">
+               <h2><strong>Cursos de inglés</strong></h2>
+              </div>
+              <ul class="plan-features">
+              <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.</li>
+              <li><strong>Beet Language Center</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
+              <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo.</li>
+              <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
+              <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
+              <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas 
+              semanales. </li>
+            </ul>
+            <div class="plan-cta" style="background-color:#FD795B">
+              <p class="plan-buy"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
 
 
 

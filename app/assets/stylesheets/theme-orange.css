@@ -1736,6 +1736,365 @@ section .overlay-text {
   margin: -3em 0 0;
   padding-top: 0.3em;
 }
+
+#pricing .plan-title h6{
+  color: black;
+}
+#pricing .page-header{
+  padding-bottom: 9px;
+  /*margin: -30px 0 20px;*/
+  
+}
+
+#pricing .page-header h2{
+  font-size: 2.5em;
+}
+
+
+
+/*business equal to pricing*/
+
+
+#businesscourses .plan {
+  background: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#businesscourses .plan .plan-title {
+  margin: 0;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  text-align: center;
+  background: #f5f5f5;
+}
+#businesscourses .plan .plan-title h2 {
+  padding: 0.1em 0.3em 0.1em;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-align: center;
+  color: #7c7c7c;
+}
+#businesscourses .plan .plan-title h3 {
+  font-weight: 200;
+  font-size: 4em;
+  line-height: 1.5em;
+  margin-top: 0;
+  color: #333333;
+}
+#businesscourses .plan .plan-title p {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+#businesscourses .plan .plan-title div {
+  padding: 2.2em 1em 0;
+  text-align: right;
+}
+#businesscourses .plan .plan-title input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#businesscourses .plan .plan-title sup {
+  top: -1.5em;
+  font-size: 0.3em;
+  padding-left: 0.2em;
+}
+#businesscourses .plan .plan-title sub {
+  bottom: -0.1em;
+  font-size: 0.2em;
+}
+#businesscourses .plan .plan-features {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+}
+#businesscourses .plan .plan-features li {
+  padding: 0.2em 0;
+  font-size: 1em;
+  font-weight: 200;
+  border-bottom: 1px solid #eaeaea;
+}
+#businesscourses .plan .plan-cta {
+  display: block;
+  margin: 0;
+  text-align: center;
+  border-radius: 0 0 7px 7px;
+  overflow: hidden;
+}
+#businesscourses .plan .plan-cta .plan-buy {
+  margin: 2em 0;
+}
+#businesscourses .plan .plan-cta .plan-buy .btn {
+  background: #ffba43;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+#businesscourses .plan .plan-cta .plan-buy .btn:hover {
+  background: #ffa710;
+}
+#businesscourses .plan.featured {
+  padding: 2.5em 0 0;
+ /* margin-top: -1.5em;*/
+}
+#businesscourses .plan.featured .plan-title {
+  margin: -3em 0 0;
+  padding-top: 0.3em;
+}
+
+
+#businesscourses .plan-title h6{
+  color: black;
+}
+#businesscourses .page-header{
+  padding-bottom: 9px;
+  /*margin: -30px 0 20px;*/
+  
+}
+
+#businesscourses .page-header h2{
+  font-size: 2.5em;
+}
+
+/*end of business*/
+
+
+/*sports equal to pricing*/
+
+
+#sports .plan {
+  background: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#sports .plan .plan-title {
+  margin: 0;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  text-align: center;
+  background: #f5f5f5;
+}
+#sports .plan .plan-title h2 {
+  padding: 0.1em 0.3em 0.1em;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-align: center;
+  color: #7c7c7c;
+}
+#sports .plan .plan-title h3 {
+  font-weight: 200;
+  font-size: 4em;
+  line-height: 1.5em;
+  margin-top: 0;
+  color: #333333;
+}
+#sports .plan .plan-title p {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+#sports .plan .plan-title div {
+  padding: 2.2em 1em 0;
+  text-align: right;
+}
+#sports .plan .plan-title input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#sports .plan .plan-title sup {
+  top: -1.5em;
+  font-size: 0.3em;
+  padding-left: 0.2em;
+}
+#sports .plan .plan-title sub {
+  bottom: -0.1em;
+  font-size: 0.2em;
+}
+#sports .plan .plan-features {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+}
+#sports .plan .plan-features li {
+  padding: 0.2em 0;
+  font-size: 1em;
+  font-weight: 200;
+  border-bottom: 1px solid #eaeaea;
+}
+#sports .plan .plan-cta {
+  display: block;
+  margin: 0;
+  text-align: center;
+  border-radius: 0 0 7px 7px;
+  overflow: hidden;
+}
+#sports .plan .plan-cta .plan-buy {
+  margin: 2em 0;
+}
+#sports .plan .plan-cta .plan-buy .btn {
+  background: #ffba43;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+#sports .plan .plan-cta .plan-buy .btn:hover {
+  background: #ffa710;
+}
+#sports .plan.featured {
+  padding: 2.5em 0 0;
+ /* margin-top: -1.5em;*/
+}
+#sports .plan.featured .plan-title {
+  margin: -3em 0 0;
+  padding-top: 0.3em;
+}
+
+
+#sports .plan-title h6{
+  color: black;
+}
+#sports .page-header{
+  padding-bottom: 9px;
+  /*margin: -30px 0 20px;*/
+}
+
+#sports .page-header h2{
+  font-size: 2.5em;
+}
+
+/*end of sports*/
+
+
+/*intecno equal to pricing*/
+
+#intecno .plan {
+  background: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#intecno .plan .plan-title {
+  margin: 0;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  text-align: center;
+  background: #f5f5f5;
+}
+#intecno .plan .plan-title h2 {
+  padding: 0.1em 0.3em 0.1em;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-align: center;
+  color: #7c7c7c;
+}
+#intecno .plan .plan-title h3 {
+  font-weight: 200;
+  font-size: 4em;
+  line-height: 1.5em;
+  margin-top: 0;
+  color: #333333;
+}
+#intecno .plan .plan-title p {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+#intecno .plan .plan-title div {
+  padding: 2.2em 1em 0;
+  text-align: right;
+}
+#intecno .plan .plan-title input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#intecno .plan .plan-title sup {
+  top: -1.5em;
+  font-size: 0.3em;
+  padding-left: 0.2em;
+}
+#intecno .plan .plan-title sub {
+  bottom: -0.1em;
+  font-size: 0.2em;
+}
+#intecno .plan .plan-features {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+}
+#intecno .plan .plan-features li {
+  padding: 0.2em 0;
+  font-size: 1em;
+  font-weight: 200;
+  border-bottom: 1px solid #eaeaea;
+}
+#intecno .plan .plan-cta {
+  display: block;
+  margin: 0;
+  text-align: center;
+  border-radius: 0 0 7px 7px;
+  overflow: hidden;
+}
+#intecno .plan .plan-cta .plan-buy {
+  margin: 2em 0;
+}
+#intecno .plan .plan-cta .plan-buy .btn {
+  background: #ffba43;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+#intecno .plan .plan-cta .plan-buy .btn:hover {
+  background: #ffa710;
+}
+#intecno .plan.featured {
+  padding: 2.5em 0 0;
+ /* margin-top: -1.5em;*/
+}
+#intecno .plan.featured .plan-title {
+  margin: -3em 0 0;
+  padding-top: 0.3em;
+}
+
+#intecno .plan-title h6{
+  color: black;
+}
+#intecno .page-header{
+  padding-bottom: 9px;
+  /*margin: -30px 0 20px;*/
+}
+
+#intecno .page-header h2{
+  font-size: 2.5em;
+}
+
+
+
+
+/*End of intecno*/
+
+
+
+
 #testimonials .carousel .carousel-control {
   font-size: 3em;
 }
@@ -2733,14 +3092,7 @@ footer.footer .icon {
   /*color: rgb(142,49,49);*/
 }
 
-#pricing .plan-title h6{
-  color: black;
-}
-#pricing .page-header{
-  padding-bottom: 9px;
-  /*margin: -30px 0 20px;*/
-  
-}
+
 
 #about .col-sm-2.icons{
   
@@ -2771,16 +3123,7 @@ color: #7c7c7c;
   
 }
 
-
-
-
-
-
-
 .cbp-af-header.cbp-af-header-shrink .nav li.dropdown a{
   color: black;
 }
 
-#pricing .page-header h2{
-  font-size: 2.5em;
-}
