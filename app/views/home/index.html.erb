@@ -22,37 +22,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-             <!--<%= image_tag "astonicon.jpg" %>-->
-            <h1><a class="navbar-brand scroll" href="#intro"></a>ASTON</h1>
+          
+            <a class="scroll" style="margin-left: 19%;" href="#intro"><%= image_tag "logo1.png" %></a>
+             <h6 style="color:white; font-family: 'Eras light ITC'; background-color: rgba(51,51,51,0.4);"><b>Working for your knowledge</b></h6>
           </div>
+
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
               <li><a href="#about">Inicio</a></li>
-
-              <li class ="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Servicios<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#featured1" class="tab" data-toggle="tab">Servicios destacados</a></li>
-                  <li><a href="#featured2" class="tab" data-toggle="tab">Cursos cortos</a></li>
-                  <li><a href="#testimonials" class="tab" data-toggle="tab">Curso de español</a></li>
-                </ul>
-              </li>
-
-               <li class ="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Idioma<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <%= link_to "Español", home_page_path(locale: :es) %>
-                  </li>
-                  <li>
-                    <%= link_to "Ingles", home_page_path(locale: :en), class: "tab", "data-toggle" => "tab" %>
-                  </li>
-                </ul>
-              </li>
+              <li><a href="#featured1">Servicios</a></li>
+            
+               
 
 
               <!--<li><a href="#featured2">Algomas</a></li>-->
@@ -61,7 +41,7 @@
                   CURSOS<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#pricing" class="tab" data-toggle="tab">Lenguajes</a></li>
+                  <li><a href="#testimonials" class="tab" data-toggle="tab">Lenguajes</a></li>
                   <li><a href="#businesscourses" class="tab" data-toggle="tab">Negocios y MBAs</a></li>
                   <li><a href="#sports" class="tab" data-toggle="tab">Deportes, Arte y Diseño</a>
                   </li>
@@ -75,15 +55,38 @@
 
 
               <li class="hidden-sm hidden-md"><a href="#gallery">Galeria</a></li>
+
+              <li class ="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Lenguaje<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <%= link_to "Español", home_page_path(locale: :es) %>
+                  </li>
+                  <li>
+                    <%= link_to "Ingles", home_page_path(locale: :en), class: "tab", "data-toggle" => "tab" %>
+                  </li>
+                </ul>
+              </li>
+
+
+
+
+
               <!--<li class="hidden-sm hidden-md"><a href="#testimonials">Testimonios</a></li>-->            
-              <li><a class="signup" href="#singup">Contáctanos</a></li>
+             <!-- <li><a class="signup" href="#singup">Contáctanos</a></li>-->
             </ul>
           </div>
+
         </div>
+
       </div>
 
     </div>
+
   </div>
+
 
 
 <!-- Hero Banner
@@ -94,12 +97,13 @@
         <div class="row">
           <div class="carousel-caption-center colour-white">
             <h1 style= "font-family: 'Engagement', cursive;">Aston House College</h1>
-            <h4 style="margin:-1.5% 0;">Empresa de Estudios en el Exterior</h4> <br />
+            <h4 style="margin:-1.5% 0; font-size:1.3em;">Empresa de Estudios en el Exterior</h4> <br />
             <!--<p>Tus examenes, con el instituto CAMBRIDGE, desde el BRITISH COUNCIL en Colombia.</p>-->
            <!-- <p><a class="btn btn-lg btn-primary signup" href="#singup" role="button">Contáctanos</a></p>-->
           </div>
         </div>
       </div>
+      <div class="overlay-bg"></div>
       
     </div>
   </div>
@@ -110,77 +114,84 @@
   <section id="about" class="light with-bg">
 
     <div class="container">
-      <div class="row" style="margin-left:5%;">
-        <div class="col-sm-5 overlay-text">
-          <div class="vertical-align">
-            <h2 style="text-align:center;">QUIENES SOMOS <%= t("titulo")%></h2>
-            <p style="text-align: justify; background-color: rgba(98, 98, 104, 0.2); border-radius:10px; padding: 10px 10px 10px 10px; "> ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S  es una empresa que ofrece planes académicos en el exterior de alta calidad, tales como inglés para extranjeros, inglés de negocios, otros idiomas, un programa especial para profesores de idiomas, plan quinceañeras, cursos de verano para menores de edad, pregrados y postgrados.
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 overlay-text">
+
+            <h2 style="text-align:center; margin-top:5%;"><%= t("titulo")%></h2>
+            <p style="text-align: justify; background-color: rgba(243, 87, 53, .9); border-radius:10px; padding: 10px 10px 10px 10px; color: white; "> ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S  es una empresa que ofrece planes académicos en el exterior de alta calidad, tales como inglés para extranjeros, inglés de negocios, otros idiomas, un programa especial para profesores de idiomas, plan quinceañeras, cursos de verano para menores de edad, pregrados y postgrados.
               ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S, nace como una organización de experiencias académicas en Europa, Asia y América del Norte, después de 5 años de una buena y estrecha experiencia laboral con STANTON SCHOOL OF ENGLISH, empresa que nos respalda totalmente y con la que seguiremos trabajando como sus agentes para el suroccidente de Colombia. 
 
             </p>
-          </div>
+          
         </div>
-        <div class="row" style="padding-left:8%; margin-left:-11%">
-          <div class="col-sm-6 text-center overlay-text">
-           <h2 style="font-size:1.8em; margin-top:21.5%">QUÉ TENEMOS PARA TI...</h2>
-         </div>
 
-         <div class="col-sm-2 text-center overlay-text icons">
+        <div class="col-sm-12">
+         <!-- <div class="col-sm-6 text-center overlay-text">
+           <!--<h2 style="font-size:1.8em; margin-top:21.5%">QUÉ TENEMOS PARA TI...</h2>
+         </div>-->
+          <div class="col-sm-4 text-center overlay-text icons">
           <div class="icon-wrapper">
             <i class="fa fa-book icon-large"></i>
           </div>
-          <h3> 
-            <a href="#featured1">Cursos de inglés<br /> y español </a>
-          </h3>
-        </div>
-
-        <div class="col-sm-2 text-center overlay-text icons">
-          <div class="icon-wrapper">
-            <i class="fa fa-book icon-large"></i>
+          <h3>IDIOMAS</h3>
+            <p>Cursos de idiomas en el exterior</p>
           </div>
-          <h3> <a href="#featured1">Pregrados y <br /> Posgrados</a></h3>
-        </div>
 
-        <div class="col-sm-2 text-center overlay-text icons">
-          <div class="icon-wrapper">
-            <i class="fa fa-globe icon-large"></i>
+          <div class="col-sm-4 text-center overlay-text icons">
+            <div class="icon-wrapper">
+              <i class="fa fa-book icon-large"></i>
+            </div>
+            <h3>EDUCACION SUPERIOR</h3>
+            <p>Pregrados y posgrados en el exterior</p>
           </div>
-          <h3> <a href="#featured1">Becas <br> Internacionales </a></h3>
+
+          <div class="col-sm-4 text-center overlay-text icons">
+            <div class="icon-wrapper">
+              <i class="fa fa-globe icon-large"></i>
+            </div>
+            <h3>BECAS</h3>
+            <p> Recibe apoyo para financiar tus estudios</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="overlay-bg light"></div>
+    <div class="overlay-bg light"></div>
 
-</div>
+  </div>
 </section>
 
 <!--OFFSET BOOTS: col-sm-1 col-sm-offset-1-->
 <!-- Featured Sections
   ================================================== -->
 
-<section id="featured1" class="content text-center light with-bg">
-<div class="page-header text-center">
-  <h3>Servicios Destacados</h3></div>
+<section id="featured1" class="dark with-bg">
+
+
    <div class="container">
-    <div class="overlay-bg light"></div>
-     
-     <div class ="row">
-      <div class="col-sm-7">
+    
+    <div class ="row">
+    <div class="col-sm-12 overlay-text1">
+    <h2 style="font-size: 2.5em; margin-top:5%;">Conoce nuestra amplia gama de servicios</h2>
+    </div>
+      <div class="col-sm-5 col-sm-offset-1 overlay-text">
+        
+<!--Beginning of panel group-->
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
-                  Cursos de inglés
+                  Preparamos todos los documentos necesarios!
                   <span class="caret"></span>
                 </a>
               </h4>
             </div> <!--end panel-heading-->
 
+
              <div id="collapseOne1" class="panel-collapse collapse in">
-              <div class="panel-body">
-                Cursos de inglés en reconocidas instituciones en Inglaterra, Canadá, Australia, Nueva Zelanda y Estados Unidos. 
+              <div class="panel-body" style="text-align: justify">
+                Para realizar un programa académico en el exterior se requiere llevar a cabo una serie de diligencias para cumplir con los requisitos exigidos por los diferentes paises y nosotros estamos listos para ayudarte en esto. 
+                
               </div> <!--end panel-body-->  
              </div> <!--end collapseOne1--> 
           </div> <!--end panel-default 1-->
@@ -188,14 +199,30 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive1">
+                  Asesoria Gratuita
+                </a>
+              </h4>
+            </div>  <!--end panel-heading-->
+            <div id="collapseFive1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Brindamos ayuda e  información precisa, completa y actualizada  a personas que quieran estudiar en el exterior y puedan tomar decisiones acertadas. Este servicio se brinda de forma gratuita.  
+              </div> <!--end panel-body-->
+            </div>  <!--end collapseFive1-->
+          </div>  <!--end panel-default 5-->
+ 
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo1">
-                  Cursos de otros idiomas
+                  Traducción oficial de documentos
                 </a>
               </h4>
             </div> <!--end panel-heading 2-->
             <div id="collapseTwo1" class="panel-collapse collapse">
               <div class="panel-body">
-                A través de nuestras instituciones aliadas, ofrecemos cursos de italiano, francés, ruso, alemán, chino y japonés.
+                Traducimos documentos expedidos en Colombia o provenientes del exterior. Nuestro servicio de traducción oficial es realizado por traductores inscritos en el Ministerio de Relaciones Exteriores de Colombia, con calidad, a un precio justo y con estricto cumplimiento en su entrega.
               </div> <!--end panel-body-->
             </div>  <!--end collapsetwo1-->
           </div>  <!--end panel-default 2-->
@@ -204,14 +231,13 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree1">
-                  Cursos de español para extranjeros
+                  Traducción no oficial de documentos
                 </a>
               </h4>
             </div>  <!--end panel-heading 3-->
             <div id="collapseThree1" class="panel-collapse collapse">
               <div class="panel-body">
-                Nuestro nuevo objetivo, la enseñanza del español como lengua extranjera, en clases casi personalizadas y en un ambiente académico cultural en el Instituto Cambridge Language Centre de Popayán Colombia.
-                Los estudiantes extranjeros de AHC podrán gozar de la belleza de la ciudad más culta de Colombia. Según  estudios hechos en Colombia, Popayán es la mejor ciudad  para aprender el idioma español.
+                Traducimos documentos del idioma español al idioma inglés y del inglés al español.
               </div> <!--end panel-body-->
             </div>  <!--end collapseThree1-->
           </div>  <!--end panel-default 3-->
@@ -220,66 +246,128 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour1">
-                  Pregrados y Posgrados
+                  Examenes de certificación del nivel de inglés
                 </a>
               </h4>
             </div>  <!--end panel-heading-->
             <div id="collapseFour1" class="panel-collapse collapse">
               <div class="panel-body">
-                Te ofrecemos cursos y programas a nivel mundial de pregrados, posgrados y doctorados en todas las áreas y en nuestras instituciones aliadas. Precios competitivos con calidad en la educación.      
+                Te ofrecemos asesoría gratuita con respecto de los exámenes internacionales de inglés como PET, TOEIC, BULATS y IELTS, que están diseñados para aquellos candidatos que desean estudiar y/o trabajar en el exterior. Estas pruebas cubren las cuatro competencias: Escribir, escuchar, hablar y leer.     
               </div> <!--end panel-body-->
             </div>  <!--end collapseFour1-->
           </div>  <!--end panel-default 4-->
 
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive1">
-                  Becas Internacionales
-                </a>
-              </h4>
-            </div>  <!--end panel-heading-->  
-            <div id="collapseFive1" class="panel-collapse collapse">
-              <div class="panel-body">
-                Una vez el estudiante haya cursado cualquier idioma en una de nuestras instituciones aliadas, con buen rendimiento, y si desea continuar estudiando en cualquiera de estas, se le ayuda a conseguir una beca hasta de un 50%, o se le da a conocer las becas vigentes que ofrecen algunos  gobiernos del mundo. Gratuitamente se le asesora el trámite académico y de visado.
-              </div> <!--end panel-body-->
-            </div>  <!--end collapseFive1-->
-          </div> <!--end panel-default 5--> 
+          
 
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix1">
-                  Traducción oficial de documentos a otros idiomas
-                </a>
-              </h4>
-            </div>  <!--end panel-heading-->  
-            <div id="collapseSix1" class="panel-collapse collapse">
-              <div class="panel-body">
-                Traducimos documentos expedidos en Colombia o provenientes del exterior. Nuestro servicio de traducción oficial es realizado por traductores inscritos en el Ministerio de Relaciones Exteriores de Colombia, con calidad, a un precio justo y con estricto cumplimiento en su entrega.
-              </div> <!--end panel-body-->  
-            </div>  <!--end collapseSix1--> 
-          </div>  <!--end panel-default 6-->  
-
-
-
-
-
-
-        </div> <!--end panel-group-->
+         </div> <!--end panel-group-->
       </div> <!--end col-sm-7-->
 
-      <div class="col-sm-5 text-center">
+
+<!--************************************PANEL GROUP TWO **************************************-->
+<div class="col-sm-5 overlay-text">
+        
+<!--Beginning of panel group-->
+        <div class="panel-group" id="accordion1">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1One1">
+                  Hacemos posible tu viaje al conocimiento!
+                  <span class="caret"></span>
+                </a>
+              </h4>
+            </div> <!--end panel-heading-->
+
+             <div id="collapse1One1" class="panel-collapse collapse in">
+              <div class="panel-body" style="text-align: justify">
+                Te asistimos en el proceso de la obtencion de la visa, te asesoramos para la obtencion de becas y créditos para financiar tus estudios y te ayudamos a conseguir tus tíquetes aéreos por medio de nuestros convenios. 
+              </div> <!--end panel-body-->  
+             </div> <!--end collapseOne1--> 
+          </div> <!--end panel-default 1-->
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1Two1">
+                  Visa de estudiante
+                </a>
+              </h4>
+            </div> <!--end panel-heading 2-->
+            <div id="collapse1Two1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Aston House College y Stanton School of English, diligencian y tramitan profesionalmente el proceso de visado de los nacionales colombianos que viajan a adelantar sus estudios en el exterior. En Inglaterra diligenciamos y tramitamos profesionalmente la extensión de la visa Tier-4. 
+              </div> <!--end panel-body-->
+            </div>  <!--end collapsetwo1-->
+          </div>  <!--end panel-default 2-->
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1Three1">
+                  Visa de turista
+                </a>
+              </h4>
+            </div>  <!--end panel-heading 3-->
+            <div id="collapse1Three1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Tramitamos y asesoramos profesionalmente visas de turismo para países europeos, asiáticos y  de América del Norte como Estados Unidos y Canadá.  
+              </div> <!--end panel-body-->
+            </div>  <!--end collapseThree1-->
+          </div>  <!--end panel-default 3-->
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1Four1">
+                  Créditos y becas de Icetex
+                </a>
+              </h4>
+            </div>  <!--end panel-heading-->
+            <div id="collapse1Four1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Sin ser intermediarios y de forma gratuita informamos sobre los créditos de posgrados y créditos de perfeccionamiento de idiomas en el exterior que ofrece el ICETEX para estudiantes colombianos. Muchos estudiantes nuestros se han beneficiado bajo esta modalidad de préstamos.   
+              </div> <!--end panel-body-->
+            </div>  <!--end collapseFour1-->
+          </div>  <!--end panel-default 4-->
+
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1Five1">
+                  Tíquetes aéreos
+                </a>
+              </h4>
+            </div>  <!--end panel-heading-->
+            <div id="collapse1Five1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Diligenciamos los tiquetes aéreos a bajo costo, para nuestros estudiantes a través de las compañías aéreas o de la Organización Mundial para las Migraciones OIM.      
+              </div> <!--end panel-body-->
+            </div>  <!--end collapseFive1-->
+          </div>  <!--end panel-default 5-->
+         </div> <!--end panel-group-->
+      </div> <!--end col-sm-7-->
+
+
+
+
+
+
+
+
+     <!-- <div class="col-sm-5 text-center">
         <%= image_tag 'thumb3.jpg',
         class:"margin-top img-responsive",
           "alt" =>"Generic placeholder image",
           "data-scrollreveal" => "move 100px and enter from the right after 0.55s",
           "width" =>"429"
           %>
-      </div>   <!--End col-sm-5-->
+      </div>-->   <!--End col-sm-5-->
       
      </div> <!--end row-->
    </div> <!--end container-->
+ <div class="overlay-bg black"></div>
 </section>
 
 
@@ -401,8 +489,7 @@
   <section id="testimonials" class="dark">
 
     <div class="page-header text-center">
-      <h3>Curso de Español</h3>
-      <h2>Bienvenido a Popayán!</h2>
+        <h2>Bienvenido a Popayán!</h2>
     </div>
 
     <div class="container">
@@ -436,7 +523,7 @@
                       <%= image_tag 'pop-b.jpg'%>
                     </div>
                   </div>
-                  <p style="text-align:center">" Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!"</p>
+                  <p style="text-align:center">" Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!"</p>
                 </blockquote>
               </div>
               <!-- Quote 2 -->
@@ -462,6 +549,18 @@
               <div class="item">
                 <blockquote>
                   <div class="row">
+                    <div class="col-sm-4 text-center">
+                      <%= image_tag 'pop31.jpg'%>
+                    </div>
+                    <div class="col-sm-8">
+                      <p style="text-align:justify">"Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
+                      La escuela programará eventos en cada curso para conocer un poco más la cultura
+                      de Colombia mientras practicas el idioma!"</p>
+                        
+                    </div>
+                  </div>
+
+                   <div class="row">
                     <div class="col-sm-4 text-center">
                       <%= image_tag 'pop31.jpg'%>
                     </div>
@@ -897,7 +996,7 @@
       Sign up to Prestige
     </p>-->
 
-    <div id="wufoo-z17c1l8811i1dhl">
+    <!--<div id="wufoo-z17c1l8811i1dhl">
       Fill out my <a href="https://paolamastaiza.wufoo.com/forms/z17c1l8811i1dhl">online form</a>.
     </div>
     <script type="text/javascript">var z17c1l8811i1dhl;(function(d, t) {
@@ -916,7 +1015,7 @@
           var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
           try { z17c1l8811i1dhl = new WufooForm();z17c1l8811i1dhl.initialize(options);z17c1l8811i1dhl.display(); } catch (e) {}};
           var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-        })(document, 'script');</script>
+        })(document, 'script');</script>-->
 
 
       </section>

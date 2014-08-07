@@ -105,7 +105,7 @@ p {
   line-height: 1.75;
 }
 a {
-  color: #FD795B;
+  color: #f35735;
 }
 a:hover {
   color: #FD795B;
@@ -1150,7 +1150,7 @@ section .login-overlay {
   background-color: #2b2d35;
 }
 .panel-default > .panel-heading {
-  background-color: #FD795B;
+  background-color: #f35735;
   border: 1px solid transparent;
   color: white;
 }
@@ -1213,21 +1213,21 @@ section .login-overlay {
 #intro .carousel-caption-center,
 #intro-video .carousel-caption-center {
   position: absolute;
-  left: -45%;
+  left: 1%;
   right: 0;
   bottom: 0;
-  top: 80%;
+  top: 50%;
   max-width: 80%;
   max-height: 25%;
   z-index: 10;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 #intro .carousel-caption-center h1,
 #intro-video .carousel-caption-center h1 {
-  font-size: 3em;
+  font-size: 5em;
   font-weight: 800;
-  margin: 0 0 0.5em;
+  margin: 0 0 0.2em;
 }
 #intro .carousel-caption-center h2,
 #intro-video .carousel-caption-center h2 {
@@ -1265,7 +1265,7 @@ section .login-overlay {
 }
 #intro .carousel-caption-left h1,
 #intro-video .carousel-caption-left h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 800;
   margin: 0 0 0.5em;
 }
@@ -1300,7 +1300,7 @@ section .login-overlay {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity:.3;
+  opacity:.5;
   background: rgba(0, 0, 0, 0.5);
   background: -webkit-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
   background: -moz-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.57) 1%, rgba(0, 0, 0, 0.8) 100%);
@@ -1320,9 +1320,9 @@ section .login-overlay {
 .overlay-bg.black {
   opacity: 0.5;
 }
-.overlay-bg.light {
+.overlay-bg.light { /*Fondon de inicio*/
   background-image: -webkit-linear-gradient(top, rgba(224, 233, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
-  background-image: linear-gradient(to bottom, rgba(224, 233, 243, 0.95) 80%, rgba(243, 243, 243, 0.85) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, 0.1) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f3f3f3', endColorstr='#d9f3f3f3', GradientType=0);
 }
@@ -1544,7 +1544,7 @@ section.dark {
   background: #2b2d35;
 }
 section.dark.with-bg {
-  /*background: url('bg-featuredapp1.jpg') center center no-repeat;*/
+  background: url('bg-content1-1.jpg') center center no-repeat;
   background-size: cover;
 }
 section.dark h1,
@@ -1622,6 +1622,10 @@ section.cta .btn:hover {
 }
 section .overlay-text {
   z-index: 10;
+}
+.overlay-text1{
+  z-index: 20;
+  text-align: center;
 }
 .separator::before {
   bottom: -30px;
@@ -2501,7 +2505,7 @@ footer.footer .icon {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background-color: rgba(253, 121, 91, 1);
+  background-color: #f35735;
   text-align: center;
   margin: 2em auto 0;
   padding: 3em 0;
@@ -3080,8 +3084,8 @@ footer.footer .icon {
 
 }
 
-#about .vertical-align h2{
-  margin-top: -20%;
+#about .vertical-align h2{ /*DE AQUI ESTOY BAJANDO EL CONTENIDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!*/
+  margin-top: 10%;
   text-align: justify;
   font-size: 2.5em;
   /*color: rgb(142,49,49);*/
@@ -3094,9 +3098,10 @@ footer.footer .icon {
 
 
 
-#about .col-sm-2.icons{
+#about .col-sm-3.icons{
   
-  padding-top: 25px;
+  padding-top: -20%;
+  margin-top: -2%;
 }
 
 #wufoo-z17c1l8811i1dhl{
@@ -3125,5 +3130,11 @@ color: #7c7c7c;
 
 .cbp-af-header.cbp-af-header-shrink .nav li.dropdown a{
   color: black;
+}
+
+
+
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse{
+  margin-top: 1px;
 }
 
