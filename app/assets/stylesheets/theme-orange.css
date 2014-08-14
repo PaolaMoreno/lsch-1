@@ -1534,7 +1534,7 @@ section .lead {
   font-size: 1.3em;
 }
 section.light {
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.8);
 }
 section.light.with-bg {
  /* background: url('bg-featuredapp1.jpg') center center no-repeat;*/
@@ -2101,6 +2101,7 @@ section .overlay-text {
 
 #testimonials .carousel .carousel-control {
   font-size: 3em;
+  color: rgba(243, 87, 53, 1);;
 }
 #testimonials .carousel .carousel-control.left {
   left: -100px;
@@ -2111,20 +2112,35 @@ section .overlay-text {
 #testimonials .carousel .carousel-indicators {
   bottom: 0;
 }
-#testimonials .carousel .carousel-indicators li,
+#testimonials .carousel .carousel-indicators li{
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  border: 1px solid rgba(243, 87, 53, .9);
+  background-color: rgba(243, 87, 53, .9);
+
+}
+
+
 #testimonials .carousel .carousel-indicators .active {
   width: 15px;
   height: 15px;
   margin: 1px;
+  border: 1px solid rgba(243, 87, 53, .9);
+  background-color: white;
 }
+
+
 #testimonials .carousel blockquote {
   margin: 0;
   padding: 0;
   min-height: 250px;
+  /*height: 200px;aquiiiiiiiiii*/
 }
 #testimonials .carousel blockquote img {
   width: 200px;
   height: 200px;
+  margin: 0 auto;
 }
 
 #testimonials .carousel blockquote .largo img {
@@ -2132,8 +2148,11 @@ section .overlay-text {
   height: 200px;
 }
 
-#testimonials .col-sm-4{
-  padding-left: 30px;
+
+#testimonials .carousel blockquote .algo img {
+  width: 443px;
+  height: 310px;
+    
 }
 
 
@@ -2144,19 +2163,19 @@ section .overlay-text {
 }
 #testimonials .carousel blockquote small,
 #testimonials .carousel blockquote .small {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 300;
-  color: white;
+  color: black;
 }
 #testimonials .carousel blockquote small:before,
 #testimonials .carousel blockquote .small:before {
   content: '';
 }
 #testimonials .carousel blockquote a {
-  color: #ffba43;
+  color: #f35735;
 }
 #testimonials .carousel blockquote a:hover {
-  color: #ffba43;
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: underline;
 }
 
@@ -2983,7 +3002,10 @@ footer.footer .icon {
   #testimonials .carousel blockquote small {
     font-size: 0.8em;
   }
-  section.cta h2 {
+
+
+
+ section.cta h2 {
     padding: 0;
   }
   section.cta .btn {
@@ -3138,3 +3160,39 @@ color: #7c7c7c;
   margin-top: 1px;
 }
 
+
+#map_canvas{
+  width: 200px;
+  height: 200px;
+  background-color: #CCC;
+}
+
+
+.embed-container {
+ position: relative;
+  margin-bottom: -32.40%;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+
+
+  
+  }
+.embed-container iframe, .embed-container object, .embed-container embed 
+{ 
+  position: absolute;
+    top: 0;
+    left: 27.5%;
+    width: 45%;
+    height: 48%; 
+    
+}
+
+#testimonials .carousel blockquote algo{
+
+width: 443px !important;
+height: 310px;
+margin: 0 auto;
+}
+  

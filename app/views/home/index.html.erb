@@ -24,7 +24,7 @@
             </button>
           
             <a class="scroll" style="margin-left: 19%;" href="#intro"><%= image_tag "logo1.png" %></a>
-             <h6 style="color:white; font-family: 'Eras light ITC'; background-color: rgba(51,51,51,0.4);"><b>Working for your knowledge</b></h6>
+             <h6 style="color:white; font-family: 'Eras light ITC'; background-color: rgba(0,0,0,0.2);"><b>Working for your knowledge</b></h6>
           </div>
 
           <div class="navbar-collapse collapse">
@@ -42,7 +42,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a href="#testimonials" class="tab" data-toggle="tab">Lenguajes</a></li>
-                  <li><a href="#businesscourses" class="tab" data-toggle="tab">Negocios y MBAs</a></li>
+                  <li><a href="#pricing" class="tab" data-toggle="tab">Negocios y MBAs</a></li>
                   <li><a href="#sports" class="tab" data-toggle="tab">Deportes, Arte y Diseño</a>
                   </li>
                    <li><a href="#intecno" class="tab" data-toggle="tab">IT, Salud y Turismo</a></li>
@@ -58,7 +58,7 @@
 
               <li class ="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Lenguaje<span class="caret"></span>
+                  Idioma<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
                   <li>
@@ -484,18 +484,16 @@
   </section>
 
 
-<!-- Testimonials
+<!-- Language Courses
   ================================================== -->
-  <section id="testimonials" class="dark">
-
-    <div class="page-header text-center">
-        <h2>Bienvenido a Popayán!</h2>
-    </div>
+  <section id="testimonials" class="light">
 
     <div class="container">
-
       <div class='row'>
         <div class='col-md-offset-2 col-md-8'>
+           
+            <h2 style="text-align:center; margin-top:5%;">LENGUAJES</h2>
+           
           <div class="carousel slide" data-ride="carousel" id="quote-carousel">
             <!-- Bottom Carousel Indicators -->
             <ol class="carousel-indicators">
@@ -503,6 +501,9 @@
               <li data-target="#quote-carousel" data-slide-to="1"></li>
               <li data-target="#quote-carousel" data-slide-to="2"></li>
               <li data-target="#quote-carousel" data-slide-to="3"></li>
+              <li data-target="#quote-carousel" data-slide-to="4"></li>
+              <li data-target="#quote-carousel" data-slide-to="5"></li>
+              <li data-target="#quote-carousel" data-slide-to="6"></li>
               
             </ol>
 
@@ -510,83 +511,186 @@
             <div class="carousel-inner">
 
               <!-- Quote 1 -->
+
               <div class="item active">
                 <blockquote>
                   <div class="row">
-                    <div class="col-sm-4">
-                      <%= image_tag 'pop.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4 style="font-size: 16px; ">STANTON SCHOOL OF ENGLISH</h4>
+                      <%= image_tag 'stantonthumb.jpg' ,
+                       class:"img-responsive" %>
+                      <small> Ubicacion: 167 Queensway. <br> W2 4SB <br>Londres Inglaterra <br> 
+                        <a href="http://www.stanton-school.co.uk/" target="_blank">Stanton</a> 
+                      </small> 
+                      
                     </div>
-                    <div class="col-sm-4">
-                      <%= image_tag 'pop-a.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                       <%= image_tag 'stanton1.png',
+                       class:"img-responsive" %> <br>
                     </div>
-                     <div class="col-sm-4">
-                      <%= image_tag 'pop-b.jpg'%>
+
                     </div>
-                  </div>
-                  <p style="text-align:center">" Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!Tus clases serán orientadas en Popayán, una ciudad tranquila y acogedora!"</p>
-                </blockquote>
+
+
+                  </blockquote>
               </div>
               <!-- Quote 2 -->
               <div class="item">
                 <blockquote>
-                 <div class="row">
-                    <div class="col-sm-4">
-                      <%= image_tag 'pop2.jpg'%>
+                  <div class="row">
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4>THE LANGUAGE GALLERY</h4>
+                      <%= image_tag 'tlg.jpg',
+                       class:"img-responsive" %>
+                      <small> Ubicacion: 18 Southampton Place<br>WC1A 2AJ<br>Londres Inglaterra <br> 
+                        <a href="http://www.thelanguagegallery.com/" target="_blank">TLG</a>
+                      </small> 
+
                     </div>
-                    <div class="col-sm-4">
-                      <%= image_tag 'pop2-a.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                       <%= image_tag 'tlg1.png',
+                       class:"img-responsive" %> <br>      
+                        
                     </div>
-                     <div class="col-sm-4">
-                      <%= image_tag 'pop2-b.jpg'%>
+
                     </div>
-                  </div>
-                  <p style="text-align:center">"Encontrarás una variedad de espacios naturales que te harán sentirte pleno!"</p>
 
 
-                </blockquote>
+                  </blockquote>
               </div>
               <!-- Quote 3 -->
               <div class="item">
                 <blockquote>
                   <div class="row">
-                    <div class="col-sm-4 text-center">
-                      <%= image_tag 'pop31.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4>SOUTH THAMES COLLEGE</h4>
+                      <%= image_tag 'stc.jpg',
+                       class:"img-responsive" %>
+                      <small> Ubicación: Wandsworth High Street<br>SW18 2PP<br>Londres Inglaterra <br> 
+                        <a href="http://www.south-thames.ac.uk/" target="_blank">STC</a>
+                      </small> 
                     </div>
-                    <div class="col-sm-8">
-                      <p style="text-align:justify">"Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
-                      La escuela programará eventos en cada curso para conocer un poco más la cultura
-                      de Colombia mientras practicas el idioma!"</p>
-                        
-                    </div>
-                  </div>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                      <%= image_tag 'stc1.png',
+                       class:"img-responsive" %> <br>
+                       
+                                               
+                      </div>
 
-                   <div class="row">
-                    <div class="col-sm-4 text-center">
-                      <%= image_tag 'pop31.jpg'%>
+
                     </div>
-                    <div class="col-sm-8">
-                      <p style="text-align:justify">"Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
-                      La escuela programará eventos en cada curso para conocer un poco más la cultura
-                      de Colombia mientras practicas el idioma!"</p>
-                        
-                    </div>
-                  </div>
-                  <p></p>
-                </blockquote>
-              </div>
+
+
+                  </blockquote>
+               </div>
+         
+
+              <!-- Quote 4 -->
                <div class="item">
                 <blockquote>
                   <div class="row">
-                    <div class="col-sm-6 text-right">
-                      <%= image_tag 'pop5.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4>BEET LANGUAGE CENTRE</h4>
+                      <%= image_tag 'beet.jpg',
+                       class:"img-responsive" %>
+                      <!-- 4:3 aspect ratio -->
+                       <!-- <div class='embed-container flex-video widescreen'><iframe src='http://www.youtube.com/embed/4z2Nxr-jeCg' frameborder='0' allowfullscreen></iframe></div>-->
+                        <small> Ubicación: Nortoft Rd<br> BH8 8PY<br>Bournemouth Inglaterra <br> 
+                        <a href="http://http://www.beet.co.uk//" target="_blank">STC</a>
+                      </small>
+                        
                     </div>
-                    <div class="col-sm-6 text-left">
-                      <%= image_tag 'pop6.jpg'%>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                       <%= image_tag 'beet1.png',
+                       class:"img-responsive" %> <br>
+                          
                     </div>
-                  </div>
-                  <p style="text-align:center">"Clases de hasta 10 estudiantes y profesores nativos altamente calificados!"</p>
-                </blockquote>
-              </div>
+
+
+                    </div>
+
+
+                  </blockquote>
+                </div>
+              <!-- Quote 5 -->
+
+
+               <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4>WESSEX ACADEMY</h4>
+                      <%= image_tag 'wessex.jpg' ,
+                       class:"img-responsive" %>
+
+                       <small> Ubicación: 84-86 Parkstone Road<br>BH15 2PG<br> Poole Inglaterra<br> 
+                        <a href="http://www.wessexacademy.com" target="_blank">Ver mas info</a>
+                      </small>
+                                        
+                    </div>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                      <%= image_tag 'wessex1.png' ,
+                       class:"img-responsive" %> <br>
+                        
+                      </div>
+
+                    </div>
+
+
+                  </blockquote>
+                </div>
+              <!-- Quote 6 -->
+
+               <div class="item">
+                <blockquote>
+                  <div class="row">
+                    
+                    <div style="margin-top:3%;" class="col-sm-5 text-center">
+                      <h4>NEW COLLEGE MANCHESTER</h4>
+                      <%= image_tag 'ncm.jpg',
+                       class:"img-responsive" %>
+                       <small> Ubicación: Murray House, 85 Piccadilly<br>M1 2DA<br>Manchester  Inglaterra<br> 
+                        <a href="http://www.newcollegemanchester.com/" target="_blank">Ver mas info</a>
+                      </small>
+                   
+                    </div>
+                    <div style="margin-top:3%;" class="col-sm-7 algo">
+                       <%= image_tag 'ncm1.png',
+                       class:"img-responsive" %> <br>
+                      
+                        
+                      </div>
+
+                    </div>
+
+
+                  </blockquote>
+                </div>
+              <!-- Quote 7 -->
+
+               <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div style="margin-top:3%;" class="col-sm-4 text-center">
+                      <h4>LANGUAGE STUDIES INTERNATIONAL</h4>
+                      <%= image_tag 'lsi.jpg',
+                       class:"img-responsive" %>
+                      <p style="text-align:justify">"Esta es la dirección!"</p>
+                    </div>
+                    <div class="col-sm-8">
+                      <p style="text-align:justify">"Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
+                        La escuela programará eventos en cada curso para conocer un poco más la cultura
+                        de Colombia mientras practicas el idioma!Habrán también muchos espacios para la diversión! La ciudad cuenta con unas buena variedad de cafes, discotecas, bares, restaurantes y eventos! <br />
+                        La escuela programará eventos en cada curso para conocer un poco más la cultura
+                        de Colombia mientras practicas el idioma"</p>
+                        
+                      </div>
+
+                    </div>
+
+
+                  </blockquote>
+                </div>
 
 
 
@@ -599,7 +703,7 @@
             <!-- Carousel Buttons Next/Prev -->
             <br />
             <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
-            <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+            <a data-slide="next" href="#quote-carousel" class="right carousel-control visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
           </div>
         </div>
       </div>
@@ -621,52 +725,23 @@
   
 
 
-<!-- Pricing
+<!-- Business Courses
   ================================================== -->
   <section id="pricing" class="dark">
-
-   
-
     <div class="container">
-    <div class="page-header text-center">
-      <h3>Instituciones</h3>
-    </div>
-
-      <div class="row">
+     <div class="row">
+        <h2 style="text-align:center; margin-top:5%;">Negocios y MBA's</h2>
         <div class="plans">
-         <!-- <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="plan" data-scrollreveal="enter over 1s">
-              <div class="plan-title">
-                <h2>South Thames College</h2>
-                <h6>Cursos de inglés y pregrados</h6>
-              </div>
-
-              <ul class="plan-features">
-                <li>Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
-                
-                <li>12 meses</li>
-              </ul>
-              <div class="plan-cta">
-                <p class="plan-buy"><a href="http://www.south-thames.ac.uk/" target="_blank" class="btn">Quiero ver mas!</a></p>
-             </div>
-            </div>
-          </div>-->
-
-          <div class="col-xs-12 col-sm-6 col-md-9">
+          <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="plan featured" data-scrollreveal="enter over 1s">
               <div class="plan-title">
-                <h2><strong>Cursos de inglés</strong></h2>
-
-                
+               <h2><strong>Cursos de inglés</strong></h2>
               </div>
 
               <ul class="plan-features">
-                <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.</li>
-                <li><strong>Beet Language Center</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.</li>
-                <li><strong>Wessex Academy</strong> <br /> Escuela privada en Poole Inglaterra, región costera del país que cuenta con uno de los puertos marítimos más grandes del mundo.</li>
-                <li><strong>Language Studies International - LSI</strong> <br />Escuelas de idiomas en Reino Unido, Estados Unidos, Canadá, Australia, Nueva Zelanda, Suiza, Francia y Malta.</li>
-                <li style="background: #f5f5f5; color: #7c7c7c; text-align: center; font-size: 1.3em; font-weight:600;" class="posypre">PREGRADOS Y POSGRADOS</li>
-                <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales. </li>
+                <li><strong>New College Manchester</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester,</li>
+                
+                <li><strong>South Thames College</strong> <br />Institución pública que ofrece cursos de inglés y otros programas académicos. Permite, además, obtener una visa con permiso para trabajar 10 horas semanales.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester,</li>
                 
 
               </ul>
@@ -678,31 +753,10 @@
               
             </div>
           </div>
-
-         
-
-          <!--<div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="plan featured" data-scrollreveal="enter over 1s">
-              <div class="plan-title">
-                <h2><strong>CURSO DE ESPAÑOL</strong></h2>
-                
-              </div>
-
-              <ul class="plan-features">
-                <li><strong>Cambridge Language Centre</strong> <br />
-                  La mejor escuela de idiomas ubicada en Popayán, Colombia,
-                  dictará clases de español a alumnos extrajeros interesados en aprender el idioma.<br/>
-
-                  Nuestro plan de familias anfitrionas, permitirá que las personas que vengan a la ciudad a aprender español, estén completamente cómodas y disfruten su estadía al máximo en la ciudad. 
-                </li>
-                
-                
-              </ul>
-              <div class="plan-cta" style="background-color:#FD795B">
-                <p class="plan-buy"></p>
-              </div>
-            </div>
-          </div>-->
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class='embed-container flex-video widescreen'><iframe src='http://www.youtube.com/embed/4z2Nxr-jeCg' frameborder='0' allowfullscreen></iframe></div>
+          </div>
+      
         </div>
       </div>
     </div>
