@@ -1547,6 +1547,15 @@ section.dark.with-bg {
   background: url('bg-content1-1.jpg') center center no-repeat;
   background-size: cover;
 }
+
+section.dark.with-bg1 {
+  background: url('aja1.png') center center no-repeat;
+  background-size: cover;
+}
+
+
+
+
 section.dark h1,
 section.dark h2,
 section.dark h4,
@@ -2859,7 +2868,7 @@ footer.footer .icon {
 }
 @media (max-width: 991px) and (min-width: 768px) {
   #pricing .plan {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto 2em;
   }
   #pricing .plan.featured {
@@ -2953,7 +2962,7 @@ footer.footer .icon {
     margin: auto;
   }
   #pricing .plan {
-    max-width: 400px;
+    max-width: 550px;
     margin: 0 auto 2em;
   }
   #pricing .plan.featured {
