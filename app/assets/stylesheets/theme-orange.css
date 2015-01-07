@@ -1540,10 +1540,7 @@ section.light.with-bg {
  /* background: url('bg-featuredapp1.jpg') center center no-repeat;*/
   background-size: cover;
 }
-section.dark.with-bg2 {
-  background: url('elites5.jpg') center center no-repeat;
-  background-size: cover;
-  }
+
 section.dark {
   background: #2b2d35;
 }
@@ -1556,7 +1553,16 @@ section.dark.with-bg1 {
   background: url('aja1.png') center center no-repeat;
   background-size: cover;
 }
+section.dark.with-bg2 {
+  background: url('elites5.jpg') center center no-repeat;
+  background-size: cover;
+  }
 
+  section.dark.with-bg3 {
+  background: url('itback2.jpg') top center no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  }
 
 
 
@@ -2142,6 +2148,14 @@ section .overlay-text {
 
 
 /*End of intecno*/
+
+
+
+
+
+
+
+
 
 
 
@@ -2923,6 +2937,11 @@ footer.footer .icon {
  
 }
 
+#cf4 img{ 
+  margin: 19% 0;
+ 
+}
+
 }
 @media (max-width: 767px) {
   .img-overlap {
@@ -3079,6 +3098,14 @@ footer.footer .icon {
   max-width: 300px;
   
 }
+
+  #cf4 img{ /*Solution for shrinking images when reaching this viewport size (max width 767px); Fix a max-width for the image*/
+  max-width: 300px;
+  
+}
+
+
+
 }
 @media (max-width: 480px) {
   .cbp-af-header h1 {
@@ -3279,6 +3306,24 @@ margin-bottom: 10px;
   
 }
 
+#cf4 {
+  height: 150px;
+  margin: 3% 0;
+   
+}
+
+#cf4 img {
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+}
+
+
+
+
 
  /* @-webkit-keyframes cf3FadeInOut {
   0% {
@@ -3364,10 +3409,85 @@ opacity:0;
 #cf3 img:nth-of-type(3) {
   -webkit-animation-delay: 14s;
   -moz-animation-delay: 2s;
-  -o-animation-delay: s;
+  -o-animation-delay: 2s;
 }
 #cf3 img:nth-of-type(4) {
   -webkit-animation-delay: 7s;
   -moz-animation-delay: 0s;
   -o-animation-delay: 0s;
+}
+
+
+
+
+#cf4 img.top {
+-webkit-animation-name: cf4FadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 10s;
+-webkit-animation-direction: alternate;
+-moz-animation-name: cf4FadeInOut;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count: infinite;
+-moz-animation-duration: 10s;
+-moz-animation-direction: alternate;
+-o-animation-name: cf4FadeInOut;
+-o-animation-timing-function: ease-in-out;
+-o-animation-iteration-count: infinite;
+-o-animation-duration: 10s;
+-o-animation-direction: alternate;
+
+}
+
+@-webkit-keyframes cf4FadeInOut {
+   0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+  
+}
+
+
+#it h1{
+  color: white;
+  text-align: center;
+  font-size: 2.3em;
+  font-family: "Agency FB";
+}
+#it h1 span{
+  background-color: rgba(33,31,31,0.48);
+}
+
+#it h3{
+
+  color: white;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: none;
+}
+#it .heading h3{
+ color: #F2EBEA;
+ font-size: 1.5em;
+ font-style: bold;
+ background-color: rgba(33,31,31,0.48);
+}
+
+
+.maint{
+  background-color: rgba(33,31,31,0.48);
+  text-align: justify;
+}
+
+#it h2 span{
+
+  background-color: rgba(51,51,51,0.1);
 }
