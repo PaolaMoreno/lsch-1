@@ -24,6 +24,10 @@ $(document).ready(function(){
     });
 
   $('.dropdown-toggle').dropdown();
+
+  $('[data-toggle="popover"]').popover({
+     
+        trigger: 'hover'   }); 
   
 
 });

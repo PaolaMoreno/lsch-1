@@ -22,17 +22,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-          
+
             <a class="scroll" style="margin-left: 19%;" href="#intro"><%= image_tag "logo1.png" %></a>
-             <h6 style="color:white; font-family: 'Eras light ITC'; background-color: rgba(0,0,0,0.2);"><b>Working for your knowledge</b></h6>
+            <h6 style="color:white; font-family: 'Eras light ITC'; background-color: rgba(0,0,0,0.2);"><b>Working for your knowledge</b></h6>
           </div>
 
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
               <li><a href="#about">Inicio</a></li>
               <li><a href="#featured1">Servicios</a></li>
-            
-               
+
+
 
 
               <!--<li><a href="#featured2">Algomas</a></li>-->
@@ -47,8 +47,8 @@
                   </li>
                   <li><a href="#sports" class="tab" data-toggle="tab">Deportes</a>
                   </li>
-                   <li><a href="#intecno" class="tab" data-toggle="tab">Salud y Turismo</a></li>
-                   <li><a href="#it" class="tab" data-toggle="tab">IT</a></li>
+                  <!--<li><a href="#intecno" class="tab" data-toggle="tab">Salud y Turismo</a></li>
+                  <li><a href="#it" class="tab" data-toggle="tab">IT</a></li>-->
                 </ul>
               </li>
 
@@ -59,7 +59,7 @@
 
               <li class="hidden-sm hidden-md"><a href="#gallery">Galeria</a></li>
 
-              <li class ="dropdown hidden-sm">
+             <!-- <li class ="dropdown hidden-sm">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                   Idioma<span class="caret"></span>
                 </a>
@@ -71,14 +71,14 @@
                     <%= link_to "Ingles", home_page_path(locale: :en), class: "tab", "data-toggle" => "tab" %>
                   </li>
                 </ul>
-              </li>
+              </li>-->
 
 
 
 
 
               <!--<li class="hidden-sm hidden-md"><a href="#testimonials">Testimonios</a></li>-->            
-             <li><a href="#contact">Contacto</a></li>
+              <li><a href="#contact">Contacto</a></li>
             </ul>
           </div>
 
@@ -102,7 +102,7 @@
             <h1 style= "font-family: 'Engagement', cursive;">Aston House College</h1>
             <h4 style="margin:-1.5% 0; font-size:1.3em;">Empresa de Estudios en el Exterior</h4> <br />
             <!--<p>Tus examenes, con el instituto CAMBRIDGE, desde el BRITISH COUNCIL en Colombia.</p>-->
-           <!-- <p><a class="btn btn-lg btn-primary signup" href="#singup" role="button">Contáctanos</a></p>-->
+            <!-- <p><a class="btn btn-lg btn-primary signup" href="#singup" role="button">Contáctanos</a></p>-->
           </div>
         </div>
       </div>
@@ -120,11 +120,11 @@
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 overlay-text">
 
-            <h2 style="text-align:center; margin-top:5%;"><%= t("titulo")%></h2>
-            <p style="text-align: justify; background-color: rgba(243, 87, 53, .9); border-radius:10px; padding: 10px 10px 10px 10px; color: white; "> ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S  es una empresa que ofrece planes académicos en el exterior de alta calidad, tales como inglés para extranjeros, inglés de negocios, otros idiomas, un programa especial para profesores de idiomas, plan quinceañeras, cursos de verano para menores de edad, pregrados y postgrados.
-              ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S, nace como una organización de experiencias académicas en Europa, Asia y América del Norte, después de 5 años de una buena y estrecha experiencia laboral con STANTON SCHOOL OF ENGLISH, empresa que nos respalda totalmente y con la que seguiremos trabajando como sus agentes para el suroccidente de Colombia. 
+          <h2 style="text-align:center; margin-top:5%;"><%= t("titulo")%></h2>
+          <p style="text-align: justify; background-color: rgba(243, 87, 53, .9); border-radius:10px; padding: 10px 10px 10px 10px; color: white; "> ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S  es una empresa que ofrece planes académicos en el exterior de alta calidad, tales como inglés para extranjeros, inglés de negocios, otros idiomas, un programa especial para profesores de idiomas, plan quinceañeras, cursos de verano para menores de edad, pregrados y postgrados.
+            ASTON HOUSE COLLEGE-EMPRESA DE ESTUDIOS EN EL EXTERIOR S.A.S, nace como una organización de experiencias académicas en Europa, Asia y América del Norte, después de 5 años de una buena y estrecha experiencia laboral con STANTON SCHOOL OF ENGLISH, empresa que nos respalda totalmente y con la que seguiremos trabajando como sus agentes para el suroccidente de Colombia. 
 
-            </p>
+          </p>
           
         </div>
 
@@ -132,53 +132,53 @@
          <!-- <div class="col-sm-6 text-center overlay-text">
            <!--<h2 style="font-size:1.8em; margin-top:21.5%">QUÉ TENEMOS PARA TI...</h2>
          </div>-->
-          <div class="col-sm-4 text-center overlay-text icons">
+         <div class="col-sm-4 text-center overlay-text icons">
           <div class="icon-wrapper">
             <i class="fa fa-book icon-large"></i>
           </div>
           <h3>IDIOMAS</h3>
-            <p>Cursos de idiomas en el exterior</p>
-          </div>
+          <p>Cursos de idiomas en el exterior</p>
+        </div>
 
-          <div class="col-sm-4 text-center overlay-text icons">
-            <div class="icon-wrapper">
-              <i class="fa fa-book icon-large"></i>
-            </div>
-            <h3>EDUCACION SUPERIOR</h3>
-            <p>Pregrados y posgrados en el exterior</p>
+        <div class="col-sm-4 text-center overlay-text icons">
+          <div class="icon-wrapper">
+            <i class="fa fa-book icon-large"></i>
           </div>
+          <h3>EDUCACION SUPERIOR</h3>
+          <p>Pregrados y posgrados en el exterior</p>
+        </div>
 
-          <div class="col-sm-4 text-center overlay-text icons">
-            <div class="icon-wrapper">
-              <i class="fa fa-globe icon-large"></i>
-            </div>
-            <h3>BECAS</h3>
-            <p> Recibe apoyo para financiar tus estudios</p>
+        <div class="col-sm-4 text-center overlay-text icons">
+          <div class="icon-wrapper">
+            <i class="fa fa-globe icon-large"></i>
           </div>
+          <h3>BECAS</h3>
+          <p> Recibe apoyo para financiar tus estudios</p>
         </div>
       </div>
     </div>
-    <div class="overlay-bg light"></div>
-
   </div>
+  <div class="overlay-bg light"></div>
+
+</div>
 </section>
 
 <!--OFFSET BOOTS: col-sm-1 col-sm-offset-1-->
 <!-- Featured Sections
   ================================================== -->
 
-<section id="featured1" class="dark with-bg">
+  <section id="featured1" class="dark with-bg">
 
 
    <div class="container">
-    
+
     <div class ="row">
-    <div class="col-sm-12 overlay-text1">
-    <h2 style="font-size: 2.5em; margin-top:5%;">Conoce nuestra amplia gama de servicios</h2>
-    </div>
+      <div class="col-sm-12 overlay-text1">
+        <h2 style="font-size: 2.5em; margin-top:5%;">Conoce nuestra amplia gama de servicios</h2>
+      </div>
       <div class="col-sm-5 col-sm-offset-1 overlay-text">
-        
-<!--Beginning of panel group-->
+
+        <!--Beginning of panel group-->
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -191,12 +191,12 @@
             </div> <!--end panel-heading-->
 
 
-             <div id="collapseOne1" class="panel-collapse collapse in">
+            <div id="collapseOne1" class="panel-collapse collapse in">
               <div class="panel-body" style="text-align: justify">
                 Para realizar un programa académico en el exterior se requiere llevar a cabo una serie de diligencias para cumplir con los requisitos exigidos por los diferentes paises y nosotros estamos listos para ayudarte en esto. 
                 
               </div> <!--end panel-body-->  
-             </div> <!--end collapseOne1--> 
+            </div> <!--end collapseOne1--> 
           </div> <!--end panel-default 1-->
 
           <div class="panel panel-default">
@@ -213,7 +213,7 @@
               </div> <!--end panel-body-->
             </div>  <!--end collapseFive1-->
           </div>  <!--end panel-default 5-->
- 
+
 
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -262,14 +262,14 @@
 
           
 
-         </div> <!--end panel-group-->
+        </div> <!--end panel-group-->
       </div> <!--end col-sm-7-->
 
 
-<!--************************************PANEL GROUP TWO **************************************-->
-<div class="col-sm-5 overlay-text">
-        
-<!--Beginning of panel group-->
+      <!--************************************PANEL GROUP TWO **************************************-->
+      <div class="col-sm-5 overlay-text">
+
+        <!--Beginning of panel group-->
         <div class="panel-group" id="accordion1">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -281,11 +281,11 @@
               </h4>
             </div> <!--end panel-heading-->
 
-             <div id="collapse1One1" class="panel-collapse collapse in">
+            <div id="collapse1One1" class="panel-collapse collapse in">
               <div class="panel-body" style="text-align: justify">
                 Te asistimos en el proceso de la obtencion de la visa, te asesoramos para la obtencion de becas y créditos para financiar tus estudios y te ayudamos a conseguir tus tíquetes aéreos por medio de nuestros convenios. 
               </div> <!--end panel-body-->  
-             </div> <!--end collapseOne1--> 
+            </div> <!--end collapseOne1--> 
           </div> <!--end panel-default 1-->
 
           <div class="panel panel-default">
@@ -349,7 +349,7 @@
               </div> <!--end panel-body-->
             </div>  <!--end collapseFive1-->
           </div>  <!--end panel-default 5-->
-         </div> <!--end panel-group-->
+        </div> <!--end panel-group-->
       </div> <!--end col-sm-7-->
 
 
@@ -366,15 +366,15 @@
           "data-scrollreveal" => "move 100px and enter from the right after 0.55s",
           "width" =>"429"
           %>
-      </div>-->   <!--End col-sm-5-->
-      
-     </div> <!--end row-->
-   </div> <!--end container-->
- <div class="overlay-bg black"></div>
-</section>
+        </div>-->   <!--End col-sm-5-->
+
+      </div> <!--end row-->
+    </div> <!--end container-->
+    <div class="overlay-bg black"></div>
+  </section>
 
 
-<!--****CURSOS CORTOS******-->
+  <!--****CURSOS CORTOS******-->
 
 <!--<section id="featured2" class="content text-center light with-bg">
   <div class="page-header text-center">
@@ -494,9 +494,9 @@
     <div class="container">
       <div class='row'>
         <div class='col-md-offset-2 col-md-8'>
-           
-            <h2 style="text-align:center; margin-top:5%;">LENGUAJES</h2>
-           
+
+          <h2 style="text-align:center; margin-top:5%;">LENGUAJES</h2>
+
           <div class="carousel slide" data-ride="carousel" id="quote-carousel">
             <!-- Bottom Carousel Indicators -->
             <ol class="carousel-indicators">
@@ -521,184 +521,184 @@
                     <div style="margin-top:3%;" class="col-sm-5 text-center">
                       <h4>STANTON SCHOOL</h4>
                       <%= image_tag 'stantonthumb.jpg' ,
-                       class:"img-responsive" %>
+                      class:"img-responsive" %>
                       <small> Ubicacion: 167 Queensway. <br> W2 4SB <br>Londres Inglaterra <br> 
                         <a href="http://www.stanton-school.co.uk/" target="_blank">Mas info</a> 
                       </small> 
                       
                     </div>
                     <div style="margin-top:3%;" class="col-sm-7 algo">
-                       <%= image_tag 'stanton1.png',
-                       class:"img-responsive" %> <br>
-                    </div>
+                     <%= image_tag 'stanton1.png',
+                     class:"img-responsive" %> <br>
+                   </div>
 
-                    </div>
-
-
-                  </blockquote>
-              </div>
-              <!-- Quote 2 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>THE LANGUAGE GALLERY</h4>
-                      <%= image_tag 'tlg.jpg',
-                       class:"img-responsive" %>
-                      <small> Ubicacion: 18 Southampton Place<br>WC1A 2AJ<br>Londres Inglaterra <br> 
-                        <a href="http://www.thelanguagegallery.com/" target="_blank">Mas info</a>
-                      </small> 
-
-                    </div>
-                    <div style="margin-top:3%;" class="col-sm-7 algo">
-                       <%= image_tag 'tlg1.png',
-                       class:"img-responsive" %> <br>      
-                        
-                    </div>
-
-                    </div>
+                 </div>
 
 
-                  </blockquote>
-              </div>
-              <!-- Quote 3 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>SOUTH THAMES COLLEGE</h4>
-                      <%= image_tag 'stc.jpg',
-                       class:"img-responsive" %>
-                      <small> Ubicación: Wandsworth High Street<br>SW18 2PP<br>Londres Inglaterra <br> 
-                        <a href="http://www.south-thames.ac.uk/" target="_blank">Mas info</a>
-                      </small> 
-                    </div>
-                    <div style="margin-top:3%;" class="col-sm-7 algo">
-                      <%= image_tag 'stc1.png',
-                       class:"img-responsive" %> <br>
-                       
-                                               
-                      </div>
+               </blockquote>
+             </div>
+             <!-- Quote 2 -->
+             <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div style="margin-top:3%;" class="col-sm-5 text-center">
+                    <h4>THE LANGUAGE GALLERY</h4>
+                    <%= image_tag 'tlg.jpg',
+                    class:"img-responsive" %>
+                    <small> Ubicacion: 18 Southampton Place<br>WC1A 2AJ<br>Londres Inglaterra <br> 
+                      <a href="http://www.thelanguagegallery.com/" target="_blank">Mas info</a>
+                    </small> 
 
+                  </div>
+                  <div style="margin-top:3%;" class="col-sm-7 algo">
+                   <%= image_tag 'tlg1.png',
+                   class:"img-responsive" %> <br>      
 
-                    </div>
+                 </div>
 
-
-                  </blockquote>
                </div>
-         
-
-              <!-- Quote 4 -->
-               <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>BEET LANGUAGE CENTRE</h4>
-                      <%= image_tag 'beet.jpg',
-                       class:"img-responsive" %>
-                      <!-- 4:3 aspect ratio -->
-                       <!-- <div class='embed-container flex-video widescreen'><iframe src='http://www.youtube.com/embed/4z2Nxr-jeCg' frameborder='0' allowfullscreen></iframe></div>-->
-                        <small> Ubicación: Nortoft Rd<br> BH8 8PY<br>Bournemouth Inglaterra <br> 
-                        <a href="http://http://www.beet.co.uk//" target="_blank">Mas info</a>
-                      </small>
-                        
-                    </div>
-                    <div style="margin-top:3%;" class="col-sm-7 algo">
-                       <%= image_tag 'beet1.png',
-                       class:"img-responsive" %> <br>
-                          
-                    </div>
 
 
-                    </div>
-
-
-                  </blockquote>
+             </blockquote>
+           </div>
+           <!-- Quote 3 -->
+           <div class="item">
+            <blockquote>
+              <div class="row">
+                <div style="margin-top:3%;" class="col-sm-5 text-center">
+                  <h4>SOUTH THAMES COLLEGE</h4>
+                  <%= image_tag 'stc.jpg',
+                  class:"img-responsive" %>
+                  <small> Ubicación: Wandsworth High Street<br>SW18 2PP<br>Londres Inglaterra <br> 
+                    <a href="http://www.south-thames.ac.uk/" target="_blank">Mas info</a>
+                  </small> 
                 </div>
-              <!-- Quote 5 -->
+                <div style="margin-top:3%;" class="col-sm-7 algo">
+                  <%= image_tag 'stc1.png',
+                  class:"img-responsive" %> <br>
 
 
-               <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>WESSEX ACADEMY</h4>
-                      <%= image_tag 'wessex.jpg' ,
-                       class:"img-responsive" %>
-
-                       <small> Ubicación: 84-86 Parkstone Road<br>BH15 2PG<br> Poole Inglaterra<br> 
-                        <a href="http://www.wessexacademy.com" target="_blank">Mas info</a>
-                      </small>
-                                        
-                    </div>
-                    <div style="margin-top:3%;" class="col-sm-7 algo">
-                      <%= image_tag 'wessex1.png' ,
-                       class:"img-responsive" %> <br>
-                        
-                      </div>
-
-                    </div>
-
-
-                  </blockquote>
                 </div>
-              <!-- Quote 6 -->
-
-               <div class="item">
-                <blockquote>
-                  <div class="row">
-                    
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>NEW COLLEGE MANCHESTER</h4>
-                      <%= image_tag 'ncm.jpg',
-                       class:"img-responsive" %>
-                       <small> Ubicación: Murray House, 85 Piccadilly<br>M1 2DA<br>Manchester  Inglaterra<br> 
-                        <a href="http://www.newcollegemanchester.com/" target="_blank">Mas info</a>
-                      </small>
-                   
-                    </div>
-                    <div style="margin-top:3%;" class="col-sm-7 algo">
-                       <%= image_tag 'ncm1.png',
-                       class:"img-responsive" %> <br>
-                      
-                        
-                      </div>
-
-                    </div>
 
 
-                  </blockquote>
-                </div>
-              <!-- Quote 7 -->
+              </div>
 
-               <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div style="margin-top:3%;" class="col-sm-5 text-center">
-                      <h4>LSI</h4>
-                      <%= image_tag 'lsi.jpg',
-                       class:"img-responsive" %>
-                       <small> Ubicación: 19-21 Ridgmount Street<br>WC1E 7AH<br>Londres Inglaterra<br> 
-                        <a href="http://www.lsi.edu/en/" target="_blank">Mas info</a>
-                      </small>
-                   
-                    </div>
-                    <div style="margin-top:3%" class="col-sm-7 algo">
-                       <%= image_tag 'lsi.png', class:"img-responsive" %><br>
-                    </div>
-                    </div>
-                  </blockquote>
-                </div>
-            </div>
-            <!-- Carousel Buttons Next/Prev -->
-            <br />
-            <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
-            <a data-slide="next" href="#quote-carousel" class="right carousel-control visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+
+            </blockquote>
           </div>
+
+
+          <!-- Quote 4 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div style="margin-top:3%;" class="col-sm-5 text-center">
+                  <h4>BEET LANGUAGE CENTRE</h4>
+                  <%= image_tag 'beet.jpg',
+                  class:"img-responsive" %>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class='embed-container flex-video widescreen'><iframe src='http://www.youtube.com/embed/4z2Nxr-jeCg' frameborder='0' allowfullscreen></iframe></div>-->
+                  <small> Ubicación: Nortoft Rd<br> BH8 8PY<br>Bournemouth Inglaterra <br> 
+                    <a href="http://http://www.beet.co.uk//" target="_blank">Mas info</a>
+                  </small>
+
+                </div>
+                <div style="margin-top:3%;" class="col-sm-7 algo">
+                 <%= image_tag 'beet1.png',
+                 class:"img-responsive" %> <br>
+
+               </div>
+
+
+             </div>
+
+
+           </blockquote>
+         </div>
+         <!-- Quote 5 -->
+
+
+         <div class="item">
+          <blockquote>
+            <div class="row">
+              <div style="margin-top:3%;" class="col-sm-5 text-center">
+                <h4>WESSEX ACADEMY</h4>
+                <%= image_tag 'wessex.jpg' ,
+                class:"img-responsive" %>
+
+                <small> Ubicación: 84-86 Parkstone Road<br>BH15 2PG<br> Poole Inglaterra<br> 
+                  <a href="http://www.wessexacademy.com" target="_blank">Mas info</a>
+                </small>
+
+              </div>
+              <div style="margin-top:3%;" class="col-sm-7 algo">
+                <%= image_tag 'wessex1.png' ,
+                class:"img-responsive" %> <br>
+
+              </div>
+
+            </div>
+
+
+          </blockquote>
         </div>
-      </div>
-    </div>
-  </div>
+        <!-- Quote 6 -->
+
+        <div class="item">
+          <blockquote>
+            <div class="row">
+
+              <div style="margin-top:3%;" class="col-sm-5 text-center">
+                <h4>NEW COLLEGE MANCHESTER</h4>
+                <%= image_tag 'ncm.jpg',
+                class:"img-responsive" %>
+                <small> Ubicación: Murray House, 85 Piccadilly<br>M1 2DA<br>Manchester  Inglaterra<br> 
+                  <a href="http://www.newcollegemanchester.com/" target="_blank">Mas info</a>
+                </small>
+
+              </div>
+              <div style="margin-top:3%;" class="col-sm-7 algo">
+               <%= image_tag 'ncm1.png',
+               class:"img-responsive" %> <br>
+
+
+             </div>
+
+           </div>
+
+
+         </blockquote>
+       </div>
+       <!-- Quote 7 -->
+
+       <div class="item">
+        <blockquote>
+          <div class="row">
+            <div style="margin-top:3%;" class="col-sm-5 text-center">
+              <h4>LSI</h4>
+              <%= image_tag 'lsi.jpg',
+              class:"img-responsive" %>
+              <small> Ubicación: 19-21 Ridgmount Street<br>WC1E 7AH<br>Londres Inglaterra<br> 
+                <a href="http://www.lsi.edu/en/" target="_blank">Mas info</a>
+              </small>
+
+            </div>
+            <div style="margin-top:3%" class="col-sm-7 algo">
+             <%= image_tag 'lsi.png', class:"img-responsive" %><br>
+           </div>
+         </div>
+       </blockquote>
+     </div>
+   </div>
+   <!-- Carousel Buttons Next/Prev -->
+   <br />
+   <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
+   <a data-slide="next" href="#quote-carousel" class="right carousel-control visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+ </div>
+</div>
+</div>
+</div>
+</div>
 
 </section>
 
@@ -708,126 +708,126 @@
   <section id="pricing" class="dark with-bg1">
     <div class="container">
      <div class="row">
-        
-        <div class="plans">
-          <div class="col-sm-12 overlay-text">
-            <h2 style="text-align:center; margin-top:5%;">Negocios y MBA's</h2>
-            <div class="plan featured" data-scrollreveal="enter over 1s">
-              <div class="plan-title">
-               <h2><strong>Escuelas</strong></h2>
-              </div>
 
-                  <ul class="plan-features">
-
-
-                <li class="col-sm-12">
-                 <div class="col-sm-9" style="text-align:justify"> 
-
-                <strong>LONDON SCHOOL OF BUSINESS AND FINANCE</strong> <br /> La London School of Business and Finance (LSBF) ofrece programas de pregrado, posgrado y cursos profesionales en sus siete campuses ubicados en Londres, Manchester, Birmingham, Singapur, Toronto y Hannover, así como en modalidad online. <br>
-
-                Como una escuela galardonada LSBF trabaja con prestigiosas instituciones para ofrecer programas de pregrado de alta relevancia para la industria, entre las opciones de pregrado se encuentran: Negocios, Tecnologias de la Informacion, Finanzas, Salud, Hoteleria y Turismo, Gerencia de Industrias Creativas y un curso de Fundamentos en Negocios (Foundation). <br>
-
-                En cuento a posgrados la escuela ofrece una variedad de MBA's, maestrías en Finanzas, Mercadeo, Ley Mercantíl y cursos preparatorios para las maestrías (cursos de inglés para propósitos específicos).<br>
-
-                La escuela ofrece además cursos profesionales para obtener certificaciones  ACCA, CIMA, CIM, CFA y OTHM y con ello darle a tu carrera distinción a nivel global.
-                Para mayor información visita el website de <a href="http://www.fbt-global.com/" target="_blank">LSBF</a>
-
-                </div>
-
-                <div class="col-sm-3">
-                  <%= image_tag 'user-avatar1.jpg',
-                       class:"img-responsive",
-                       style: "margin: 0 auto" %>
-                  
-                   <small style="text-align:justify"> 
-                    <center>Manuel Bucheli </center>
-                    <center>MBA en LSBF<br>
-                    “Estudie un MBA en LSBF Londres, programa con alto nivel académico, todas las instalaciones necesarias y excelente ubicación en la ciudad.”
-                    </center>
-                   </small>
-
-                </div>
-
-
-               </li>
-
-
-                <li class="col-sm-12">
-                 <div class="col-sm-9" style="text-align:justify"> 
-
-                <strong>FINANCE BUSINESS TRAINING</strong> <br />
-                FBT enlaza cursos de calidad con valor total para sus muchos estudiantes en el Reino Unido. Se dedica a asegurar que el costo no es una barrera para una educación excepcional en Negocios. <br>
-                FBT ofrece cursos profesionales ACCA y CIMA, pregrados en Negocios, Gerencia de Hotelería y Turismo, y Diseño de modas y Textiles. Adicionalmente FBT ofrece un Foundation Course para Diseño de Modas y Textiles.<br>
-                La institución está ubicada en  Birmingham, la segunda ciudad más poblada en Inglaterra, después de Londres.<br>
-                Para mayor informacion visita el website de <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
-                </div>
-
-                <div class="col-sm-3">
-                  <%= image_tag 'fbt.jpg',
-                       class:"img-responsive",
-                       style: "margin: 8px auto" %>
-                                     
-                </div>
-
-
-               </li>
-
-                <li class="col-sm-12">
-                 <div class="col-sm-9" style="text-align:justify"> 
-
-                <strong>GISMA</strong> <br />
-                Esta altamente reconocida escuela de negocios en Europa, tiene su sede principal en Hannover, Alemania y en asociación con otras reconocidas escuelas como Maastricht School of Management MBM Y London School of Business and Finance LSBF, brinda a profesionales interesados en negocios y gerencia la oportunidad de engrandecer su perfil profesional en otras ciudades de Europa. La escuela ofrece un GISMA/MSM MBA, GISMA MBA Dual, Cursos para obtener certificados ACCA y CFA, y variados cursos para profesionales, entre los que se encuentran: Digital Marketing y Social Media, Management Consulting y Project Management, Innovación y Emprendimiento, Planeamiento de Mercadeo y Estrategia, entre otros!
- <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
-                </div>
-
-                <div class="col-sm-3">
-                  <%= image_tag 'gisma.jpg',
-                       class:"img-responsive",
-                       style: "margin: 8px auto" %>
-                                     
-                </div>
-
-
-               </li>
-
-               <li class="col-sm-12">
-                 <div class="col-sm-9" style="text-align:justify"> 
-
-                <strong>St PATRICK'S INTERNATIONAL COLLEGE</strong> <br />
-                Con 200 años de historia, St Patrick's ofrece cursos prácticos, basadas en habilidades, teniendo los estudiantes más cerca de un entorno de trabajo real. Estudiantes de St Patrick son preparados por expertos para carreras exitosas en áreas como negocios y marketing, salud y turismo. Los cursos ofrecidos en el área de negocios son: HND Business Management -Extended Diploma in Strategic Management and Leadership -MBA School Business Management -MBA Leadership and Change Management -Global MBA -MA International Business Law -MA Strategic Marketing -MA in Finance and Investment -CIMA -CIMA Full-time -CIMA Plus MBA -CIMA Complete.
- <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
-                </div>
-
-                <div class="col-sm-3">
-                  <%= image_tag 'gisma.jpg',
-                       class:"img-responsive",
-                       style: "margin: 8px auto" %>
-                                     
-                </div>
-
-
-               </li>
-
-
-
-
-
-
-
-
-                <li> <center> <small>Entérate de las becas disponibles para estudiantes internacionales en nuestra oficina!</small></center></li>
-              </ul>
-
-              <div class="plan-cta" style="background-color:#FD795B">
-                <p class="plan-buy"></p>
-              </div>
+      <div class="plans">
+        <div class="col-sm-12 overlay-text">
+          <h2 style="text-align:center; margin-top:5%;">Negocios y MBA's</h2>
+          <div class="plan featured" data-scrollreveal="enter over 1s">
+            <div class="plan-title">
+             <h2><strong>Escuelas</strong></h2>
            </div>
+
+           <ul class="plan-features">
+
+
+            <li class="col-sm-12">
+             <div class="col-sm-9" style="text-align:justify"> 
+
+              <strong>LONDON SCHOOL OF BUSINESS AND FINANCE</strong> <br /> La London School of Business and Finance (LSBF) ofrece programas de pregrado, posgrado y cursos profesionales en sus siete campuses ubicados en Londres, Manchester, Birmingham, Singapur, Toronto y Hannover, así como en modalidad online. <br>
+
+              Como una escuela galardonada LSBF trabaja con prestigiosas instituciones para ofrecer programas de pregrado de alta relevancia para la industria, entre las opciones de pregrado se encuentran: Negocios, Tecnologias de la Informacion, Finanzas, Salud, Hoteleria y Turismo, Gerencia de Industrias Creativas y un curso de Fundamentos en Negocios (Foundation). <br>
+
+              En cuento a posgrados la escuela ofrece una variedad de MBA's, maestrías en Finanzas, Mercadeo, Ley Mercantíl y cursos preparatorios para las maestrías (cursos de inglés para propósitos específicos).<br>
+
+              La escuela ofrece además cursos profesionales para obtener certificaciones  ACCA, CIMA, CIM, CFA y OTHM y con ello darle a tu carrera distinción a nivel global.
+              Para mayor información visita el website de <a href="http://www.fbt-global.com/" target="_blank">LSBF</a>
+
+            </div>
+
+            <div class="col-sm-3">
+              <%= image_tag 'user-avatar1.jpg',
+              class:"img-responsive",
+               style: "margin: 0 auto" %>
+
+               <small style="text-align:justify"> 
+                <center>Manuel Bucheli </center>
+                <center>MBA en LSBF<br>
+                  “Estudie un MBA en LSBF Londres, programa con alto nivel académico, todas las instalaciones necesarias y excelente ubicación en la ciudad.”
+                </center>
+              </small>
+
+            </div>
+
+
+          </li>
+
+
+          <li class="col-sm-12">
+           <div class="col-sm-9" style="text-align:justify"> 
+
+            <strong>FINANCE BUSINESS TRAINING</strong> <br />
+            FBT enlaza cursos de calidad con valor total para sus muchos estudiantes en el Reino Unido. Se dedica a asegurar que el costo no es una barrera para una educación excepcional en Negocios. <br>
+            FBT ofrece cursos profesionales ACCA y CIMA, pregrados en Negocios, Gerencia de Hotelería y Turismo, y Diseño de modas y Textiles. Adicionalmente FBT ofrece un Foundation Course para Diseño de Modas y Textiles.<br>
+            La institución está ubicada en  Birmingham, la segunda ciudad más poblada en Inglaterra, después de Londres.<br>
+            Para mayor informacion visita el website de <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
           </div>
-        </div>
+
+          <div class="col-sm-3">
+            <%= image_tag 'fbt.jpg',
+            class:"img-responsive",
+             style: "margin: 8px auto" %>
+
+           </div>
+
+
+         </li>
+
+         <li class="col-sm-12">
+           <div class="col-sm-9" style="text-align:justify"> 
+
+            <strong>GISMA</strong> <br />
+            Esta altamente reconocida escuela de negocios en Europa, tiene su sede principal en Hannover, Alemania y en asociación con otras reconocidas escuelas como Maastricht School of Management MBM Y London School of Business and Finance LSBF, brinda a profesionales interesados en negocios y gerencia la oportunidad de engrandecer su perfil profesional en otras ciudades de Europa. La escuela ofrece un GISMA/MSM MBA, GISMA MBA Dual, Cursos para obtener certificados ACCA y CFA, y variados cursos para profesionales, entre los que se encuentran: Digital Marketing y Social Media, Management Consulting y Project Management, Innovación y Emprendimiento, Planeamiento de Mercadeo y Estrategia, entre otros!
+            <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
+          </div>
+
+          <div class="col-sm-3">
+            <%= image_tag 'gisma.jpg',
+            class:"img-responsive",
+             style: "margin: 8px auto" %>
+
+           </div>
+
+
+         </li>
+
+         <li class="col-sm-12">
+           <div class="col-sm-9" style="text-align:justify"> 
+
+            <strong>St PATRICK'S INTERNATIONAL COLLEGE</strong> <br />
+            Con 200 años de historia, St Patrick's ofrece cursos prácticos, basadas en habilidades, teniendo los estudiantes más cerca de un entorno de trabajo real. Estudiantes de St Patrick son preparados por expertos para carreras exitosas en áreas como negocios y marketing, salud y turismo. Los cursos ofrecidos en el área de negocios son: HND Business Management -Extended Diploma in Strategic Management and Leadership -MBA School Business Management -MBA Leadership and Change Management -Global MBA -MA International Business Law -MA Strategic Marketing -MA in Finance and Investment -CIMA -CIMA Full-time -CIMA Plus MBA -CIMA Complete.
+            <a href="http://www.fbt-global.com/" target="_blank"> FBT </a>
+          </div>
+
+          <div class="col-sm-3">
+            <%= image_tag 'gisma.jpg',
+            class:"img-responsive",
+             style: "margin: 8px auto" %>
+
+           </div>
+
+
+         </li>
+
+
+
+
+
+
+
+
+         <li> <center> <small>Entérate de las becas disponibles para estudiantes internacionales en nuestra oficina!</small></center></li>
+       </ul>
+
+       <div class="plan-cta" style="background-color:#FD795B">
+        <p class="plan-buy"></p>
       </div>
     </div>
+  </div>
+</div>
+</div>
+</div>
 <div class="overlay-bg black"></div>
-  </section>
+</section>
 
 
 <!--Arte y diseño de modas
@@ -842,10 +842,10 @@
             <div class="plan featured" data-scrollreveal="enter over 1s">
               <div class="plan-title">
                <h2><strong>Escuelas</strong></h2>
-              </div>
-              <ul class="plan-features">
+             </div>
+             <ul class="plan-features">
               <li><strong>LONDON SCHOOL OF FASHION AND DESIGN</strong> <br /> Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.
-              <SPAN class="hidden-sm hidden-md">  ESTO NO SE VERAAAEscuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad. </SPAN>
+                <SPAN class="hidden-sm hidden-md">  ESTO NO SE VERAAAEscuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad. </SPAN>
 
               </li>
               <li><strong>LONDON COLLEGE OF COMTEMPORARY ARTS</strong> <br /> Escuela privada de inglés en Bournemouth Inglaterra, ubicada en la costa sur del país.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester<SPAN class="hidden-sm hidden-md">  ESTO NO SE VERAAAEscuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad. </SPAN></li>
@@ -858,37 +858,37 @@
           </div>
         </div>
         <div id="cf3" class="col-sm-6 text-center" >
-          
+
           <!--<img class="bottom" src="/images/Windows%20Logo.jpg" />-->
           <%= image_tag 'fashion.jpg',
           class:"img-responsive"
             %>
-           <%= image_tag 'fashionphoto.jpg',
-          class:"img-responsive"
-            %>  
-             <%= image_tag 'fashion2.jpg',
-          class:"img-responsive"
-            %>  
-             <%= image_tag 'fashion3.jpg',
-          class:"img-responsive"
-            %>  
+            <%= image_tag 'fashionphoto.jpg',
+            class:"img-responsive"
+              %>  
+              <%= image_tag 'fashion2.jpg',
+              class:"img-responsive"
+                %>  
+                <%= image_tag 'fashion3.jpg',
+                class:"img-responsive"
+                  %>  
 
 
-         <!-- <img class="top" src="/images/Turtle.jpg" />-->
-          
-         
+                  <!-- <img class="top" src="/images/Turtle.jpg" />-->
+
+
+                </div>
+
+
+
+
+
+
+              </div>
+            </div>
           </div>
 
-
-
-
-
-
-      </div>
-    </div>
-  </div>
-
-</section>
+        </section>
 
 
 <!-- Deportes
@@ -900,42 +900,42 @@
       </div>
 
 
-<div class="row">
+      <div class="row">
 
 
-<div class="col-sm-12">
-  <center>
-  <h1>
-<span>LFC E.L.I.T.E.S - Liverpool Football Club e Inglés</span>
+        <div class="col-sm-12">
+          <center>
+            <h1>
+              <span>LFC E.L.I.T.E.S - Liverpool Football Club e Inglés</span>
 
-</h1>
+            </h1>
 
-  <h3><span>Es el resultado de una primera alianza educativa siempre entre una Liga Football Club Premier (Liverpool Football Club) y un proveedor de la educación superior (LSBF). Ahora combinado en su excelencia, los logros y la innovación, las élites LFC ofrecen una gama de programas dinámicos en todo el mundo, la exploración de las habilidades transferibles y estrategias entre el deporte y los negocios. ÉLITES Escuela de Inglés y Fútbol es un programa residencial para jóvenes de 12 a 17 años de todo el mundo que deseen experimentar unas vacaciones de verano con un toque de verdad! Con la opción de estancia de una semana a un máximo de nueve semanas durante los meses de verano de 2014, los estudiantes tendrán la oportunidad de participar en cursos de inglés, impartidas por profesores altamente cualificados y experimentados de LSBF de La Galería de idioma, y de pasar al otro la mitad del día con entrenadores FC Liverpool.</span></h3>
-</center>
-</div>
-</div>
+            <h3><span>Es el resultado de una primera alianza educativa siempre entre una Liga Football Club Premier (Liverpool Football Club) y un proveedor de la educación superior (LSBF). Ahora combinado en su excelencia, los logros y la innovación, las élites LFC ofrecen una gama de programas dinámicos en todo el mundo, la exploración de las habilidades transferibles y estrategias entre el deporte y los negocios. ÉLITES Escuela de Inglés y Fútbol es un programa residencial para jóvenes de 12 a 17 años de todo el mundo que deseen experimentar unas vacaciones de verano con un toque de verdad! Con la opción de estancia de una semana a un máximo de nueve semanas durante los meses de verano de 2014, los estudiantes tendrán la oportunidad de participar en cursos de inglés, impartidas por profesores altamente cualificados y experimentados de LSBF de La Galería de idioma, y de pasar al otro la mitad del día con entrenadores FC Liverpool.</span></h3>
+          </center>
+        </div>
+      </div>
 
-<div class="row">
-  <div class="col-sm-12">
-  <center>
-  <h1>
-  <span>El curso incluye</span>
-  </h1> 
-  </center>
+      <div class="row">
+        <div class="col-sm-12">
+          <center>
+            <h1>
+              <span>El curso incluye</span>
+            </h1> 
+          </center>
 
-  <h3><center><span>
-      English language tuition from The Language Gallery teachers (3 hours per day) <br>
-      Professional coaching from Liverpool Football Club coaches<br>
-      All meals and refreshments<br>
-      On-site accommodation<br>
-      LFC E.L.I.T.E.S Certification<br>
-      Full programme of evening activities and weekend excursions<br>
-      Complimentary LFC E.L.I.T.E.S football kit
-      </span></center></h3>
-      
+          <h3><center><span>
+            English language tuition from The Language Gallery teachers (3 hours per day) <br>
+            Professional coaching from Liverpool Football Club coaches<br>
+            All meals and refreshments<br>
+            On-site accommodation<br>
+            LFC E.L.I.T.E.S Certification<br>
+            Full programme of evening activities and weekend excursions<br>
+            Complimentary LFC E.L.I.T.E.S football kit
+          </span></center></h3>
 
-</div>
-</div>
+
+        </div>
+      </div>
 
 
 
@@ -951,19 +951,19 @@
               <div class="plan-title">
                <h2><strong>Cursos de inglés</strong></h2>
               </div>
-              </div>-->
-        
-      
-    
-  </div>
+            </div>-->
 
-</section>
+
+
+          </div>
+
+        </section>
 
 
 
 
 <!-- Health and Tourism
-  ================================================== -->
+  ================================================== 
   <section id="intecno" class="light">
     <div class="container">
       <div class="row">
@@ -973,20 +973,20 @@
             <div class="plan featured" data-scrollreveal="enter over 1s">
               <div class="plan-title">
                <h2><strong>Escuelas</strong></h2>
-              </div>
-              <ul class="plan-features">
+             </div>
+             <ul class="plan-features">
               <li><strong>St. PATRICK'S INTERNATIONAL COLLEGE</strong> <br />  la salud y el turismo. GUS unido de San Patricio en 2012 y en este corto tiempo pasó por una transformación revolucionaria por el reposicionamiento de la marca, mejora de la infraestructura, el fortalecimiento del equipo de gestión e impulsar los esfuerzos de marketing. Los resultados alcanzados en 1 año no son nada menos que fenomenal - estudiantado aumento de varios cientos a más de 10.000, con tasas de retención más altas que el promedio nacional y el aumento de más de 20 veces en los ingresos. <br />
-              Los cursos ofrecidos en éstas áreas son: <br />  
-              <ul>
+                Los cursos ofrecidos en éstas áreas son: <br />  
+                <ul>
 
-                <li>HND Health and Social Care Management</li>
-                <li>HND Hospitality Management</li>
-                <li>Advanced Professional Diploma in International Health Management</li>
-                <li>MBA Healthcare Management</li>
-                <li>Advanced Professional Diploma in Strategic Hospitality Management</li>
+                  <li>HND Health and Social Care Management</li>
+                  <li>HND Hospitality Management</li>
+                  <li>Advanced Professional Diploma in International Health Management</li>
+                  <li>MBA Healthcare Management</li>
+                  <li>Advanced Professional Diploma in Strategic Hospitality Management</li>
 
-              </ul>
-              <SPAN class="hidden-sm hidden-md">  ESTO NO SE VERAAAEscuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad. </SPAN>
+                </ul>
+                <SPAN class="hidden-sm hidden-md">  ESTO NO SE VERAAAEscuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad.Escuela privada de inglés en Manchester, ubicada en pleno centro de la ciudad. </SPAN>
 
               </li>
               
@@ -999,94 +999,108 @@
           </div>
         </div>
         <div id="cf4" class="col-sm-6 text-center" >
+
           
-          <!--<img class="bottom" src="/images/Windows%20Logo.jpg" />-->
           <%= image_tag 'patrick.jpg',
           class:"img-responsive bottom"
             %>
-             <%= image_tag 'patrick1.jpg',
-          class:"img-responsive top"
-            %>
-            
+            <%= image_tag 'patrick1.jpg',
+            class:"img-responsive top"
+              %>
 
 
-         <!-- <img class="top" src="/images/Turtle.jpg" />-->
-          
-         
+
+              
+
+
+            </div>
+
+
+
+
+
+
           </div>
-
-
-
-
-
-
+        </div>
       </div>
-    </div>
-  </div>
 
-</section>
+    </section>
 
-
-
+-->
+ 
 
 
 
 <!-- IT
-  ================================================== -->
+  ================================================== 
 
   <section id="it" class="dark with-bg3">
     <div class="container">
 
       <div class="row heading">
         <h2 style="text-align:center; margin-top:5%; font-weight: bold;"><span>TECNOLOGÍAS DE LA INFORMACIÓN</span></h2>
-        <div class="col-sm-6">
-        
-        <h3><span>Obten las certificaciones profesionales que necesitas</span></h3>
-        </div>
-        </div>
+        <div class="col-sm-7">
 
-        <div class="row">
-        <div class="col-sm-4 col-sm-offset-1">
-          <h1><span>CISCO</span></h1></div>
-        <div class="col-sm-3 col-sm-offset-2">
-          <center><h1><span>VMWARE</span></h1></center>
+          <h3><b>Obten las certificaciones profesionales que necesitas</b></h3>
         </div>
-        </div>
-        <div class="row">
-        <div class="col-sm-3"> <h1><span>MICROSOFT</span></h1></div>
-        <div class="col-sm-2"><h1><span>PRINCE 2</span></h1></div>
-        <div class="col-sm-3 col-sm-offset-1"><h1><span>ITIL</span></h1></div>
-        <div class="col-sm-2"><h1><span>COMPTIA</span></h1></div>
-        </div>
-        <div class="row">
-        <div class="col-sm-3"><h1><span>MC&sup2</span></h1></div>
-        <div class="col-sm-2"><h1><span>CITRIX</span>
-          </h1></div>
-        <div class="col-sm-3 col-sm-offset-2"><h1><span>CHECKPOINT</span></h1></div>
-
-        </div>
-
-
+      </div>
 
       <div class="row">
-        <div class="col-sm-12 maint">
+        <div class="col-sm-6">
+          <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">CISCO</button></center></div>
+          <div class="col-sm-6">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">VMWARE</button></center>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1"> 
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">MICROSOFT</button></center>
+          </div>
+          <div class="col-sm-2">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">PRINCE 2</button></center>
+          </div>
+          <div class="col-sm-2 col-sm-offset-2">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">ITIL </button></center>
+          </div>
+          <div class="col-sm-2">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">COMPTIA</button></center>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">MC&sup2</button></center>
+          </div>
+          <div class="col-sm-2">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">CITRIX</button></center>
+          </div>
+          <div class="col-sm-6 col-sm-offset-1">
+            <center><button type="button" class="btn btn-info" data-toggle="popover" data-placement="top" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover">CHECKPOINT</button></center>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-sm-12 maint">
            <h3><span>Es el resultado de una primera alianza educativa siempre entre una Liga Football Club Premier (Liverpool Football Club) y un proveedor de la educación superior (LSBF). Ahora combinado en su excelencia, los logros y la innovación, las élites LFC ofrecen una gama de programas dinámicos en todo el mundo, la exploración de las habilidades transferibles y estrategias entre el deporte y los negocios. ÉLITES Escuela de Inglés y Fútbol es un programa residencial para jóvenes de 12 a 17 años de todo el mundo que deseen experimentar unas vacaciones de verano con un toque de verdad! Con la opción de estancia de una semana a un máximo de nueve semanas durante los meses de verano de 2014, los estudiantes tendrán la oportunidad de participar en cursos de inglés, impartidas por profesores altamente cualificados y experimentados de LSBF de La Galería de idioma, y de pasar al otro la mitad del día con entrenadores FC Liverpool.</span></h3>
 
 
-        </div>
-        
-      </div>
+         </div>
+
+       </div>
 
 
 
 
-      
-  </div>
 
-</section>
+     </div>
+
+   </section>
 
 
-
+-->
 
 
 
@@ -1149,21 +1163,21 @@
               <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
               font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
-             <div class="item">
+            <div class="item">
               <a href="<%= image_url 'thumbs/thumb7.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb7.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
               <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
               font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
-             <div class="item">
+            <div class="item">
               <a href="<%= image_url 'thumbs/thumb8.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb8.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
               <h1 style="background-color: rgba(51,51,51,0.4); padding: 0 5px; margin-top: -10%; z-index: 100;
               font-size: 1em;"><span >Algo pasa aqui</span></h1>
             </div>
-             <div class="item">
+            <div class="item">
               <a href="<%= image_url 'thumbs/thumb9.jpg' %>" class="popup-gallery">
                 <%= image_tag "thumbs/thumb9.jpg", "alt" => "Prestige Portfolio Thumbnail Image" %>
               </a>
@@ -1286,4 +1300,3 @@
 
     </div>
 
-   
